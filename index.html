@@ -612,37 +612,67 @@
   </main>
 
   <script>
-    const apps = [
-      { nome: 'TimeFlow', grupo: 'hauxtech', subtitulo: 'Em Produção', implantacao: 100, atualizacao: 0, fidelidade: null, leitura: 'Finalizada; atualização visual pendente.' },
-      { nome: 'InfraFlow', grupo: 'hauxtech', subtitulo: 'Em Produção', implantacao: 100, atualizacao: 0, fidelidade: null, leitura: 'Finalizada; atualização visual pendente.' },
-      { nome: 'monitor-vps', grupo: 'hauxtech', subtitulo: 'Monitoramento', implantacao: 100, atualizacao: null, fidelidade: null, leitura: 'Sem UI web/login no escopo do padrão visual.' },
-      { nome: 'coreflow-crm-docs', grupo: 'hauxtech', subtitulo: 'Portal de documentação', implantacao: 100, atualizacao: null, fidelidade: null, leitura: 'Portal MkDocs em produção.' },
-      { nome: 'StreamKeeper', grupo: 'hauxtech', subtitulo: 'Em Desenvolvimento', implantacao: 87, atualizacao: 0, fidelidade: null, leitura: 'Próxima da conclusão; ainda no padrão anterior.' },
-      { nome: 'HireFlow', grupo: 'hauxtech', subtitulo: 'Em Desenvolvimento', implantacao: 51, atualizacao: 0, fidelidade: null, leitura: 'Implantação intermediária; atualização visual pendente.' },
-      { nome: 'CoreFlow ERP', grupo: 'hauxtech', subtitulo: 'Em Desenvolvimento', implantacao: 46, atualizacao: 0, fidelidade: null, leitura: 'Implantação intermediária; atualização visual pendente.' },
-      { nome: 'CoreFlow CRM', grupo: 'hauxtech', subtitulo: 'Em Desenvolvimento', implantacao: 19, atualizacao: 0, fidelidade: null, leitura: 'Menor implantação do ambiente hauxtech.' },
-      { nome: 'CoreFlow Stock', grupo: 'hauxtech', subtitulo: 'Em Desenvolvimento', implantacao: 49, atualizacao: 100, fidelidade: null, leitura: 'Migrada para o novo padrão holo.' },
-      { nome: 'CoreFlow Planner AI', grupo: 'hauxtech', subtitulo: 'Piloto holo', implantacao: 74, atualizacao: 100, fidelidade: null, leitura: 'Origem/piloto do novo padrão visual.' },
-      { nome: 'portal_hauxtech', grupo: 'hauxtech', subtitulo: 'Landpage', implantacao: null, atualizacao: null, fidelidade: null, leitura: 'Sem métrica de implantação; fora da média CRUD.' },
-      { nome: 'Administração', grupo: 'oficial', subtitulo: 'Extração SGA', implantacao: 100, atualizacao: 100, fidelidade: 0, leitura: 'Implantada; aguarda auditoria retroativa.' },
-      { nome: 'Financeiro', grupo: 'oficial', subtitulo: 'Extração SGA', implantacao: 100, atualizacao: 100, fidelidade: 0, leitura: 'Implantada; aguarda auditoria retroativa.' },
-      { nome: 'Estoque', grupo: 'oficial', subtitulo: 'Extração SGA', implantacao: 100, atualizacao: 100, fidelidade: 100, leitura: 'Auditada, corrigida e sem pendência aberta.' },
-      { nome: 'Comex', grupo: 'oficial', subtitulo: 'Extração SGA', implantacao: 100, atualizacao: 100, fidelidade: 100, leitura: 'Auditada 3x, finalizada e em produção.' },
-      { nome: 'Inventário', grupo: 'oficial', subtitulo: 'Extração SGA', implantacao: 0, atualizacao: null, fidelidade: null, leitura: 'Ainda não iniciada.' },
-      { nome: 'RH', grupo: 'oficial', subtitulo: 'Extração SGA', implantacao: 36, atualizacao: 100, fidelidade: 100, leitura: 'Scaffold, login, vhost/SSL e primeira auditoria realizados.' },
-      { nome: 'Cadastros', grupo: 'oficial', subtitulo: 'Extração SGA', implantacao: 0, atualizacao: null, fidelidade: null, leitura: 'Ainda não iniciada.' },
-      { nome: 'Cobrança', grupo: 'oficial', subtitulo: 'Extração SGA', implantacao: 0, atualizacao: null, fidelidade: null, leitura: 'Ainda não iniciada.' },
-      { nome: 'monitor-rpa', grupo: 'oficial', subtitulo: 'Ferramenta auxiliar', implantacao: 100, atualizacao: 0, fidelidade: null, leitura: 'Em produção; atualização visual pendente.' },
-      { nome: 'multi-rpa', grupo: 'oficial', subtitulo: 'Worker Celery', implantacao: 100, atualizacao: null, fidelidade: null, leitura: 'Sem UI web/login; atualização visual N/A.' },
-      { nome: 'multi-ai', grupo: 'oficial', subtitulo: 'IA agentes', implantacao: 100, atualizacao: 100, fidelidade: null, leitura: 'Em produção e no padrão visual oficial.' },
-      { nome: 'gestor-imagem', grupo: 'oficial', subtitulo: 'Ferramenta auxiliar', implantacao: 100, atualizacao: 0, fidelidade: null, leitura: 'Em produção; atualização visual pendente.' },
-      { nome: 'multi-aplicacao', grupo: 'oficial', subtitulo: 'Guarda-chuva', implantacao: 63, atualizacao: null, fidelidade: null, leitura: 'Projeto guarda-chuva; 10 / 16 etapas.' },
-      { nome: 'chamados', grupo: 'oficial', subtitulo: 'Fora do Score central', implantacao: 9, atualizacao: null, fidelidade: null, leitura: 'Planejamento próprio encontrado; ainda não integrado ao Score central.' },
-      { nome: 'relatorios', grupo: 'oficial', subtitulo: 'Fora do Score central', implantacao: 30, atualizacao: null, fidelidade: null, leitura: 'Planejamento próprio encontrado; ainda não integrado ao Score central.' }
-    ];
+    let scoreData = null;
+    let apps = [];
+    let activeFilter = 'todos';
 
     const tbody = document.getElementById('apps-body');
     const accentByGroup = { hauxtech: 'var(--haux)', oficial: 'var(--oficial)' };
+
+    function asPct(value) {
+      return value === null || value === undefined ? 'N/A' : `${value}%`;
+    }
+
+    function scoreLabel(score, fallback = 'N/A') {
+      if (!score) return fallback;
+      return `${score.percentual}%`;
+    }
+
+    function scoreDetail(score, fallback = '') {
+      if (!score || score.atual === null || score.atual === undefined || score.total === null || score.total === undefined) {
+        return fallback;
+      }
+      return `${score.atual} / ${score.total} ${score.unidade || ''}`.trim();
+    }
+
+    function setText(selector, value) {
+      const element = document.querySelector(selector);
+      if (element) element.textContent = value;
+    }
+
+    function setMetric(selector, title, value, detail) {
+      const metric = document.querySelector(selector);
+      if (!metric) return;
+      const titleEl = metric.querySelector('b');
+      const valueEl = metric.querySelector('strong');
+      const detailEl = metric.querySelector('small');
+      if (titleEl) titleEl.textContent = title;
+      if (valueEl) valueEl.textContent = value;
+      if (detailEl) detailEl.textContent = detail;
+    }
+
+    function setDial(panel, score, label) {
+      const dial = panel.querySelector('.dial');
+      if (!dial) return;
+      const percent = score ? score.percentual : 0;
+      dial.style.setProperty('--value', percent);
+      const valueEl = dial.querySelector('span');
+      const labelEl = dial.querySelector('small');
+      if (valueEl) valueEl.textContent = asPct(percent);
+      if (labelEl) labelEl.textContent = label;
+      dial.setAttribute('aria-label', `${label} ${percent} por cento`);
+    }
+
+    function setKpi(panel, index, title, score, fallbackDetail) {
+      const kpi = panel.querySelectorAll('.kpi')[index];
+      if (!kpi) return;
+      const titleEl = kpi.querySelector('small');
+      const valueEl = kpi.querySelector('strong');
+      const detailEl = kpi.querySelector('span');
+      if (titleEl) titleEl.textContent = title;
+      if (valueEl) valueEl.textContent = score ? scoreLabel(score) : 'N/A';
+      if (detailEl) detailEl.textContent = score ? scoreDetail(score, fallbackDetail) : fallbackDetail;
+    }
 
     function badgeClass(value) {
       if (value === null || value === undefined) return 'na';
@@ -682,21 +712,23 @@
       const bar = document.createElement('div');
       bar.className = 'bar';
       bar.style.setProperty('--value', `${value}%`);
-      bar.style.setProperty('--accent', accentByGroup[group]);
+      bar.style.setProperty('--accent', accentByGroup[group] || 'var(--cyan)');
       bar.appendChild(document.createElement('span'));
 
       wrapper.append(meta, bar);
       parent.appendChild(wrapper);
     }
 
-    function renderRows(filter = 'todos') {
+    function renderRows(filter = activeFilter) {
+      activeFilter = filter;
       tbody.replaceChildren();
       apps.forEach(app => {
-        const hasPending = app.implantacao === 0 || app.atualizacao === 0 || app.fidelidade === 0 || app.nome === 'chamados' || app.nome === 'relatorios';
-        const hidden = filter !== 'todos' && filter !== app.grupo && !(filter === 'pendencia' && hasPending);
+        const group = app.ambiente || app.grupo;
+        const hasPending = app.implantacao === 0 || app.atualizacao === 0 || app.fidelidade === 0;
+        const hidden = filter !== 'todos' && filter !== group && !(filter === 'pendencia' && hasPending);
 
         const row = document.createElement('tr');
-        row.dataset.group = app.grupo;
+        row.dataset.group = group;
         row.dataset.pending = hasPending ? 'sim' : 'nao';
         if (hidden) row.classList.add('is-hidden');
 
@@ -706,14 +738,14 @@
         name.textContent = app.nome;
         const subtitle = document.createElement('span');
         subtitle.className = 'app-sub';
-        subtitle.textContent = app.subtitulo;
+        subtitle.textContent = app.subtitulo || app.categoria || app.status || '';
         nameCell.append(name, subtitle);
 
         const groupCell = document.createElement('td');
-        appendBadge(groupCell, app.grupo === 'hauxtech' ? 'HauxTech' : 'Oficial', app.grupo === 'hauxtech' ? 'haux' : 'oficial');
+        appendBadge(groupCell, group === 'hauxtech' ? 'HauxTech' : 'Oficial', group === 'hauxtech' ? 'haux' : 'oficial');
 
         const implantacaoCell = document.createElement('td');
-        appendProgress(implantacaoCell, app.implantacao, app.grupo);
+        appendProgress(implantacaoCell, app.implantacao, group);
 
         const atualizacaoCell = document.createElement('td');
         appendBadge(atualizacaoCell, pctText(app.atualizacao), badgeClass(app.atualizacao));
@@ -722,11 +754,72 @@
         appendBadge(fidelidadeCell, pctText(app.fidelidade), badgeClass(app.fidelidade));
 
         const leituraCell = document.createElement('td');
-        leituraCell.textContent = app.leitura;
+        leituraCell.textContent = app.leitura || app.status || 'Em acompanhamento.';
 
         row.append(nameCell, groupCell, implantacaoCell, atualizacaoCell, fidelidadeCell, leituraCell);
         tbody.appendChild(row);
       });
+    }
+
+    function applyData(data) {
+      scoreData = data;
+      apps = Array.isArray(data.apps) ? data.apps : [];
+
+      const haux = data.ambientes?.hauxtech || {};
+      const oficial = data.ambientes?.oficial || {};
+      const updated = data.updated_at ? new Date(data.updated_at).toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' }) : 'data não informada';
+
+      setText('.source-line', `Fonte: ${data.source_label || 'Score de Implantação consolidado'} · Atualizado em ${updated} · America/Sao_Paulo`);
+      setMetric('.metric.haux', 'HauxTech · Implantação', scoreLabel(haux.implantacao), scoreDetail(haux.implantacao, 'etapas mapeadas'));
+      setMetric('.metric.oficial', 'Oficial · Implantação', scoreLabel(oficial.implantacao), scoreDetail(oficial.implantacao, 'apps + ferramentas'));
+      setMetric('.metric.atencao', 'Atualização visual', `${scoreLabel(haux.atualizacao)} / ${scoreLabel(oficial.atualizacao)}`, 'HauxTech / Oficial');
+      setMetric('.metric.fidelidade', 'Fidelidade Oficial', scoreLabel(oficial.fidelidade), scoreDetail(oficial.fidelidade, 'apps auditáveis'));
+
+      const panels = document.querySelectorAll('.env-panel');
+      if (panels[0]) {
+        setDial(panels[0], haux.implantacao, 'Implantação');
+        const desc = panels[0].querySelector('.env-title p');
+        if (desc && haux.descricao) desc.textContent = haux.descricao;
+        setKpi(panels[0], 0, 'Implantação', haux.implantacao, 'etapas');
+        setKpi(panels[0], 1, 'Atualização', haux.atualizacao, 'apps aplicáveis');
+        setKpi(panels[0], 2, 'Fidelidade', haux.fidelidade, 'Sem legado equivalente');
+      }
+      if (panels[1]) {
+        setDial(panels[1], oficial.implantacao, 'Consolidado');
+        const desc = panels[1].querySelector('.env-title p');
+        if (desc && oficial.descricao) desc.textContent = oficial.descricao;
+        setKpi(panels[1], 0, 'Implantação', oficial.implantacao, 'apps + ferramentas');
+        setKpi(panels[1], 1, 'Atualização', oficial.atualizacao, 'apps aplicáveis');
+        setKpi(panels[1], 2, 'Fidelidade', oficial.fidelidade, 'apps auditáveis');
+      }
+
+      const insights = Array.isArray(data.insights) ? data.insights : [];
+      document.querySelectorAll('.insight').forEach((card, index) => {
+        if (!insights[index]) return;
+        const title = card.querySelector('strong');
+        const text = card.querySelector('p');
+        if (title) title.textContent = insights[index].titulo;
+        if (text) text.textContent = insights[index].texto;
+      });
+
+      const footnote = document.querySelector('.footnote');
+      if (footnote && Array.isArray(data.notas)) footnote.textContent = data.notas.join(' ');
+
+      renderRows(activeFilter);
+    }
+
+    async function loadScoreData() {
+      try {
+        const response = await fetch('./score-data.json', { cache: 'no-store' });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data = await response.json();
+        applyData(data);
+      } catch (error) {
+        console.error('Falha ao carregar score-data.json', error);
+        setText('.source-line', 'Não foi possível carregar score-data.json. Verifique a publicação do GitHub Pages.');
+        apps = [];
+        renderRows();
+      }
     }
 
     document.querySelectorAll('.filter-btn').forEach(button => {
@@ -737,7 +830,7 @@
       });
     });
 
-    renderRows();
+    loadScoreData();
   </script>
 </body>
 </html>

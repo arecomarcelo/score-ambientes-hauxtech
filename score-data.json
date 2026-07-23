@@ -1,0 +1,396 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-07-22T22:40:24-03:00",
+  "source_label": "Score de Implantação consolidado",
+  "ambientes": {
+    "hauxtech": {
+      "label": "HauxTech",
+      "descricao": "Aplicações próprias do ecossistema HauxTech, com produtos em produção e módulos em desenvolvimento. Fidelidade ao legado não se aplica.",
+      "implantacao": {
+        "percentual": 62,
+        "atual": 246,
+        "total": 399,
+        "unidade": "etapas"
+      },
+      "atualizacao": {
+        "percentual": 25,
+        "atual": 2,
+        "total": 8,
+        "unidade": "apps aplicáveis"
+      },
+      "fidelidade": null
+    },
+    "oficial": {
+      "label": "Oficial",
+      "descricao": "Aplicações do ecossistema Oficial, incluindo extrações do legado SGA, ferramentas auxiliares e auditoria de fidelidade funcional.",
+      "implantacao": {
+        "percentual": 81,
+        "atual": 175,
+        "total": 215,
+        "unidade": "apps + ferramentas"
+      },
+      "implantacao_sga": {
+        "percentual": 55,
+        "atual": 48,
+        "total": 88,
+        "unidade": "itens"
+      },
+      "implantacao_ferramentas": {
+        "percentual": 100,
+        "atual": 127,
+        "total": 127,
+        "unidade": "etapas"
+      },
+      "implantacao_com_guarda_chuva": {
+        "percentual": 80,
+        "atual": 185,
+        "total": 231,
+        "unidade": "apps + ferramentas + guarda-chuva"
+      },
+      "atualizacao": {
+        "percentual": 75,
+        "atual": 6,
+        "total": 8,
+        "unidade": "apps aplicáveis"
+      },
+      "fidelidade": {
+        "percentual": 60,
+        "atual": 3,
+        "total": 5,
+        "unidade": "apps aplicáveis"
+      }
+    }
+  },
+  "apps": [
+    {
+      "nome": "TimeFlow",
+      "ambiente": "hauxtech",
+      "categoria": "Aplicação Finalizada",
+      "subtitulo": "Em Produção",
+      "implantacao": 100,
+      "atualizacao": 0,
+      "fidelidade": null,
+      "status": "Em Produção",
+      "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
+      "ordem": 0
+    },
+    {
+      "nome": "InfraFlow",
+      "ambiente": "hauxtech",
+      "categoria": "Aplicação Finalizada",
+      "subtitulo": "Em Produção",
+      "implantacao": 100,
+      "atualizacao": 0,
+      "fidelidade": null,
+      "status": "Em Produção",
+      "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
+      "ordem": 1
+    },
+    {
+      "nome": "monitor-vps",
+      "ambiente": "hauxtech",
+      "categoria": "Aplicação Finalizada",
+      "subtitulo": "Em Produção",
+      "implantacao": 100,
+      "atualizacao": null,
+      "fidelidade": null,
+      "status": "Em Produção",
+      "leitura": "Métrica visual/fidelidade não aplicável ao tipo de projeto.",
+      "ordem": 2
+    },
+    {
+      "nome": "coreflow-crm-docs",
+      "ambiente": "hauxtech",
+      "categoria": "Aplicação Finalizada",
+      "subtitulo": "Em Produção (portal docs)",
+      "implantacao": 100,
+      "atualizacao": null,
+      "fidelidade": null,
+      "status": "Em Produção (portal docs)",
+      "leitura": "Métrica visual/fidelidade não aplicável ao tipo de projeto.",
+      "ordem": 3
+    },
+    {
+      "nome": "StreamKeeper",
+      "ambiente": "hauxtech",
+      "categoria": "Aplicação",
+      "subtitulo": "Em Desenvolvimento",
+      "implantacao": 87,
+      "atualizacao": 0,
+      "fidelidade": null,
+      "status": "Em Desenvolvimento",
+      "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
+      "ordem": 4
+    },
+    {
+      "nome": "HireFlow",
+      "ambiente": "hauxtech",
+      "categoria": "Aplicação",
+      "subtitulo": "Em Desenvolvimento",
+      "implantacao": 51,
+      "atualizacao": 0,
+      "fidelidade": null,
+      "status": "Em Desenvolvimento",
+      "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
+      "ordem": 5
+    },
+    {
+      "nome": "CoreFlow ERP",
+      "ambiente": "hauxtech",
+      "categoria": "Aplicação",
+      "subtitulo": "Em Desenvolvimento",
+      "implantacao": 46,
+      "atualizacao": 0,
+      "fidelidade": null,
+      "status": "Em Desenvolvimento",
+      "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
+      "ordem": 6
+    },
+    {
+      "nome": "CoreFlow CRM",
+      "ambiente": "hauxtech",
+      "categoria": "Aplicação",
+      "subtitulo": "Em Desenvolvimento",
+      "implantacao": 19,
+      "atualizacao": 0,
+      "fidelidade": null,
+      "status": "Em Desenvolvimento",
+      "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
+      "ordem": 7
+    },
+    {
+      "nome": "CoreFlow Stock",
+      "ambiente": "hauxtech",
+      "categoria": "Aplicação",
+      "subtitulo": "Em Desenvolvimento",
+      "implantacao": 49,
+      "atualizacao": 100,
+      "fidelidade": null,
+      "status": "Em Desenvolvimento",
+      "leitura": "Migrada para o novo padrão visual hauxtech.",
+      "ordem": 8
+    },
+    {
+      "nome": "CoreFlow Planner AI",
+      "ambiente": "hauxtech",
+      "categoria": "Aplicação",
+      "subtitulo": "Em Desenvolvimento",
+      "implantacao": 74,
+      "atualizacao": 100,
+      "fidelidade": null,
+      "status": "Em Desenvolvimento",
+      "leitura": "Origem/piloto do novo padrão visual.",
+      "ordem": 9
+    },
+    {
+      "nome": "portal_hauxtech",
+      "ambiente": "hauxtech",
+      "categoria": "Aplicação",
+      "subtitulo": "Em Produção (landpage)",
+      "implantacao": null,
+      "atualizacao": null,
+      "fidelidade": null,
+      "status": "Em Produção (landpage)",
+      "leitura": "Sem métrica de implantação no consolidado principal.",
+      "ordem": 10
+    },
+    {
+      "nome": "Estoque",
+      "ambiente": "oficial",
+      "categoria": "Extração SGA Finalizada",
+      "subtitulo": "Em Produção",
+      "implantacao": 100,
+      "atualizacao": 100,
+      "fidelidade": 100,
+      "status": "Em Produção",
+      "leitura": "Auditada e sem pendência crítica aberta.",
+      "ordem": 11
+    },
+    {
+      "nome": "Comex",
+      "ambiente": "oficial",
+      "categoria": "Extração SGA Finalizada",
+      "subtitulo": "Em Produção",
+      "implantacao": 100,
+      "atualizacao": 100,
+      "fidelidade": 100,
+      "status": "Em Produção",
+      "leitura": "Auditada e sem pendência crítica aberta.",
+      "ordem": 12
+    },
+    {
+      "nome": "Administração",
+      "ambiente": "oficial",
+      "categoria": "Extração SGA",
+      "subtitulo": "Em Produção — aguarda auditoria de fidelidade",
+      "implantacao": 100,
+      "atualizacao": 100,
+      "fidelidade": 0,
+      "status": "Em Produção — aguarda auditoria de fidelidade",
+      "leitura": "Implantada; aguarda auditoria retroativa de fidelidade.",
+      "ordem": 13
+    },
+    {
+      "nome": "Financeiro",
+      "ambiente": "oficial",
+      "categoria": "Extração SGA",
+      "subtitulo": "Em Produção — aguarda auditoria de fidelidade",
+      "implantacao": 100,
+      "atualizacao": 100,
+      "fidelidade": 0,
+      "status": "Em Produção — aguarda auditoria de fidelidade",
+      "leitura": "Implantada; aguarda auditoria retroativa de fidelidade.",
+      "ordem": 14
+    },
+    {
+      "nome": "Inventário",
+      "ambiente": "oficial",
+      "categoria": "Extração SGA",
+      "subtitulo": "Não Iniciada",
+      "implantacao": 0,
+      "atualizacao": null,
+      "fidelidade": null,
+      "status": "Não Iniciada",
+      "leitura": "Ainda não iniciada.",
+      "ordem": 15
+    },
+    {
+      "nome": "RH",
+      "ambiente": "oficial",
+      "categoria": "Extração SGA",
+      "subtitulo": "Scaffold + login + Novo Padrão Visual (.os-*) + vhost/SSL + primeiro deploy em produção",
+      "implantacao": 36,
+      "atualizacao": 100,
+      "fidelidade": 100,
+      "status": "Scaffold + login + Novo Padrão Visual (.os-*) + vhost/SSL + primeiro deploy em produção",
+      "leitura": "Auditada e sem pendência crítica aberta.",
+      "ordem": 16
+    },
+    {
+      "nome": "Automação (rpa)",
+      "ambiente": "oficial",
+      "categoria": "Extração SGA",
+      "subtitulo": "Consolidada em ferramentas auxiliares",
+      "implantacao": 100,
+      "atualizacao": null,
+      "fidelidade": null,
+      "status": "Consolidada em ferramentas auxiliares",
+      "leitura": "Concluída no consolidado atual.",
+      "ordem": 17
+    },
+    {
+      "nome": "multi-ai (extração SGA)",
+      "ambiente": "oficial",
+      "categoria": "Extração SGA",
+      "subtitulo": "Consolidada em ferramentas auxiliares",
+      "implantacao": 100,
+      "atualizacao": null,
+      "fidelidade": null,
+      "status": "Consolidada em ferramentas auxiliares",
+      "leitura": "Concluída no consolidado atual.",
+      "ordem": 18
+    },
+    {
+      "nome": "Cadastros",
+      "ambiente": "oficial",
+      "categoria": "Extração SGA",
+      "subtitulo": "Não Iniciada",
+      "implantacao": 0,
+      "atualizacao": null,
+      "fidelidade": null,
+      "status": "Não Iniciada",
+      "leitura": "Ainda não iniciada.",
+      "ordem": 19
+    },
+    {
+      "nome": "Cobrança",
+      "ambiente": "oficial",
+      "categoria": "Extração SGA",
+      "subtitulo": "Não Iniciada",
+      "implantacao": 0,
+      "atualizacao": null,
+      "fidelidade": null,
+      "status": "Não Iniciada",
+      "leitura": "Ainda não iniciada.",
+      "ordem": 20
+    },
+    {
+      "nome": "monitor-rpa",
+      "ambiente": "oficial",
+      "categoria": "Ferramenta Auxiliar",
+      "subtitulo": "Em Produção",
+      "implantacao": 100,
+      "atualizacao": 0,
+      "fidelidade": null,
+      "status": "Em Produção",
+      "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
+      "ordem": 21
+    },
+    {
+      "nome": "multi-rpa",
+      "ambiente": "oficial",
+      "categoria": "Ferramenta Auxiliar",
+      "subtitulo": "Em Produção",
+      "implantacao": 100,
+      "atualizacao": null,
+      "fidelidade": null,
+      "status": "Em Produção",
+      "leitura": "Métrica visual/fidelidade não aplicável ao tipo de projeto.",
+      "ordem": 22
+    },
+    {
+      "nome": "multi-ai",
+      "ambiente": "oficial",
+      "categoria": "Ferramenta Auxiliar",
+      "subtitulo": "Em Produção",
+      "implantacao": 100,
+      "atualizacao": 100,
+      "fidelidade": null,
+      "status": "Em Produção",
+      "leitura": "Concluída no consolidado atual.",
+      "ordem": 23
+    },
+    {
+      "nome": "gestor-imagem",
+      "ambiente": "oficial",
+      "categoria": "Ferramenta Auxiliar",
+      "subtitulo": "Em Produção",
+      "implantacao": 100,
+      "atualizacao": 0,
+      "fidelidade": null,
+      "status": "Em Produção",
+      "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
+      "ordem": 24
+    },
+    {
+      "nome": "multi-aplicacao",
+      "ambiente": "oficial",
+      "categoria": "Projeto Guarda-Chuva",
+      "subtitulo": "Em Desenvolvimento",
+      "implantacao": 63,
+      "atualizacao": null,
+      "fidelidade": null,
+      "status": "Em Desenvolvimento",
+      "leitura": "Projeto guarda-chuva em acompanhamento consolidado.",
+      "ordem": 25
+    }
+  ],
+  "insights": [
+    {
+      "titulo": "HauxTech: atualização visual é o menor score.",
+      "texto": "A implantação consolidada avança, mas a adoção do novo padrão visual ainda é o principal gargalo do ambiente."
+    },
+    {
+      "titulo": "Oficial: fidelidade depende de auditorias retroativas.",
+      "texto": "Administração e Financeiro já estão implantadas, mas ainda dependem da auditoria formal de fidelidade contra o legado."
+    },
+    {
+      "titulo": "Oficial SGA ainda tem apps não iniciadas.",
+      "texto": "Inventário, Cadastros e Cobrança seguem sem implantação no consolidado atual do núcleo SGA."
+    }
+  ],
+  "notas": [
+    "O projeto guarda-chuva multi-aplicacao é exibido separadamente e também compõe o cálculo opcional com guarda-chuva.",
+    "Valores N/A indicam métrica não aplicável ao tipo do projeto ou app ainda não criada."
+  ]
+}
