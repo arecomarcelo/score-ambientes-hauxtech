@@ -135,16 +135,15 @@
     .summary {
       margin-top: 28px;
       display: grid;
-      grid-template-columns: minmax(320px, .88fr) minmax(520px, 1.12fr);
-      gap: 24px;
+      grid-template-columns: 1fr;
+      gap: 16px;
       align-items: stretch;
     }
 
-    .summary-copy {
-      padding: 12px 0 12px;
+    .summary-title {
       display: flex;
-      flex-direction: column;
-      justify-content: center;
+      align-items: center;
+      justify-content: flex-start;
     }
 
     .summary-board {
@@ -154,6 +153,7 @@
       box-shadow: var(--shadow);
       overflow: hidden;
       position: relative;
+      width: 100%;
     }
 
     .summary-board::before {
@@ -182,39 +182,11 @@
       box-shadow: 0 0 0 1px rgba(139,233,253,.035), 0 0 28px rgba(139,233,253,.06);
     }
 
-    h1 {
-      margin: 18px 0 12px;
-      font-size: clamp(34px, 4.4vw, 66px);
-      line-height: .96;
-      letter-spacing: -.06em;
-      text-wrap: balance;
-    }
-
-    .lead {
-      margin: 0;
-      color: var(--muted);
-      font-size: clamp(16px, 1.35vw, 19px);
-      line-height: 1.65;
-      max-width: 820px;
-    }
-
-    .source-line {
-      margin-top: 24px;
-      padding: 14px 16px;
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      background: rgba(255,255,255,.035);
-      color: var(--muted);
-      font-family: var(--mono);
-      font-size: 12px;
-      overflow-wrap: anywhere;
-    }
-
     .executive-grid {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 16px;
-      padding: 22px;
+      gap: 18px;
+      padding: 24px;
       position: relative;
       z-index: 1;
     }
@@ -224,7 +196,7 @@
       border-radius: 24px;
       background: rgba(255,255,255,.045);
       padding: 22px;
-      min-height: 164px;
+      min-height: 174px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -241,7 +213,7 @@
     .metric strong {
       display: block;
       margin-top: 10px;
-      font-size: clamp(42px, 4.4vw, 58px);
+      font-size: clamp(46px, 5vw, 64px);
       line-height: .9;
       letter-spacing: -.04em;
     }
@@ -478,7 +450,6 @@
 
     @media (max-width: 1100px) {
       .summary, .environment-grid { grid-template-columns: 1fr; }
-      .summary-copy { padding-bottom: 0; }
     }
 
     @media (max-width: 760px) {
@@ -517,11 +488,8 @@
     </header>
 
     <section class="summary" id="resumo">
-      <div class="summary-copy">
+      <div class="summary-title">
         <span class="eyebrow">Relatório visual consolidado</span>
-        <h1>Implantação, atualização e fidelidade em uma visão única.</h1>
-        <p class="lead">Painel público para acompanhar o avanço consolidado dos ambientes HauxTech e Oficial, destacando percentuais de implantação, atualização visual, fidelidade e próximos passos principais.</p>
-        <div class="source-line">Fonte: Score de Implantação consolidado · Atualizado em 22/07/2026 · America/Sao_Paulo</div>
       </div>
 
       <aside class="summary-board executive-grid" aria-label="Indicadores executivos">
@@ -800,7 +768,6 @@
       const oficial = data.ambientes?.oficial || {};
       const updated = data.updated_at ? new Date(data.updated_at).toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' }) : 'data não informada';
 
-      setText('.source-line', `Fonte: ${data.source_label || 'Score de Implantação consolidado'} · Atualizado em ${updated} · America/Sao_Paulo`);
       setMetric('.metric.haux', 'HauxTech · Implantação', scoreLabel(haux.implantacao), scoreDetail(haux.implantacao, 'etapas mapeadas'));
       setMetric('.metric.oficial', 'Oficial · Implantação', scoreLabel(oficial.implantacao), scoreDetail(oficial.implantacao, 'apps + ferramentas'));
       setMetric('.metric.atencao', 'Atualização visual', `${scoreLabel(haux.atualizacao)} / ${scoreLabel(oficial.atualizacao)}`, 'HauxTech / Oficial');
