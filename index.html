@@ -814,7 +814,6 @@
         applyData(data);
       } catch (error) {
         console.error('Falha ao carregar score-data.json', error);
-        setText('.source-line', 'Não foi possível carregar score-data.json. Verifique a publicação do GitHub Pages.');
         apps = [];
         renderRows();
       }
