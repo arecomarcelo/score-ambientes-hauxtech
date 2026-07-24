@@ -1,0 +1,10 @@
+#!/bin/bash
+# Hook post-checkout: restaura memórias Claude após checkout/clone
+
+REPO_DIR=$(git rev-parse --show-toplevel)
+IS_BRANCH_CHECKOUT=$3
+
+if [ "$IS_BRANCH_CHECKOUT" = "1" ]; then
+    echo "🔄 Sincronizando memórias Claude..."
+    bash "$REPO_DIR/scripts/claude-sync-pull.sh"
+fi

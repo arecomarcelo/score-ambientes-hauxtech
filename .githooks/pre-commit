@@ -1,0 +1,10 @@
+#!/bin/bash
+# Hook pre-commit: sincroniza memórias Claude para o repositório antes de commitar
+
+REPO_DIR=$(git rev-parse --show-toplevel)
+
+bash "$REPO_DIR/scripts/claude-sync-push.sh"
+
+git add "$REPO_DIR/.claude/memory/" 2>/dev/null || true
+
+exit 0

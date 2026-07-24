@@ -1,0 +1,7 @@
+#!/bin/bash
+# Hook post-merge: restaura memórias Claude após git pull/merge
+
+REPO_DIR=$(git rev-parse --show-toplevel)
+
+echo "🔄 Sincronizando memórias Claude..."
+bash "$REPO_DIR/scripts/claude-sync-pull.sh"
