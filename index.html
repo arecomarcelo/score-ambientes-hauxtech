@@ -296,7 +296,7 @@
 
     .kpis {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+      grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 12px;
       padding: 16px 24px 24px;
     }
@@ -448,8 +448,90 @@
     .footer-meta { color: #9fb0ce; text-align: right; }
     .footer-dot { color: var(--cyan); opacity: .72; }
 
+    .env-boards {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 22px;
+    }
+
+    .env-board {
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      background: linear-gradient(145deg, rgba(25,28,39,.92), rgba(14,17,25,.92));
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .env-board-header {
+      padding: 18px 22px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(135deg, rgba(255,255,255,.04), transparent);
+    }
+
+    .env-board-header h3 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 850;
+      letter-spacing: -.02em;
+      color: var(--accent, var(--cyan));
+    }
+
+    .env-board-header::before {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 3px;
+      border-radius: 0 0 3px 3px;
+      background: var(--accent, var(--cyan));
+      margin: -18px 0 14px;
+      opacity: .72;
+    }
+
+    .env-board-cards {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      padding: 18px 22px 22px;
+    }
+
+    .env-board-card {
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      background: rgba(255,255,255,.04);
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.045);
+    }
+
+    .env-board-card b {
+      color: var(--muted);
+      font-size: 11px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .env-board-card strong {
+      display: block;
+      font-size: clamp(32px, 3.5vw, 44px);
+      line-height: .9;
+      letter-spacing: -.04em;
+      color: var(--ink);
+    }
+
+    .env-board-card small {
+      color: var(--subtle);
+      font-size: 12px;
+    }
+
+    .env-board-card[data-env-metric="implantacao"] strong { color: var(--haux); }
+    .env-board-card[data-env-metric="atualizacao"] strong { color: var(--cyan); }
+    .env-board-card[data-env-metric="fidelidade"] strong { color: var(--purple); }
+    .env-board-card[data-env-metric="auditado"] strong { color: var(--oficial); }
+
     @media (max-width: 1100px) {
-      .summary, .environment-grid { grid-template-columns: 1fr; }
+      .summary, .environment-grid, .env-boards { grid-template-columns: 1fr; }
     }
 
     @media (max-width: 760px) {
@@ -492,28 +574,62 @@
         <span class="eyebrow">Relatório visual consolidado</span>
       </div>
 
-      <aside class="summary-board executive-grid" aria-label="Indicadores executivos">
-        <div class="metric haux">
-          <b>HauxTech · Implantação</b>
-          <strong>62%</strong>
-          <small>246 / 399 etapas mapeadas</small>
-        </div>
-        <div class="metric oficial">
-          <b>Oficial · Implantação</b>
-          <strong>81%</strong>
-          <small>175 / 215 apps + ferramentas</small>
-        </div>
-        <div class="metric atencao">
-          <b>Atualização visual</b>
-          <strong>25% / 75%</strong>
-          <small>HauxTech / Oficial</small>
-        </div>
-        <div class="metric fidelidade">
-          <b>Fidelidade Oficial</b>
-          <strong>60%</strong>
-          <small>3 / 5 apps auditáveis</small>
-        </div>
-      </aside>
+      <div class="env-boards" aria-label="Painéis por ambiente">
+        <aside class="env-board" data-env="hauxtech">
+          <div class="env-board-header" style="--accent: var(--haux);">
+            <h3>Ambiente HauxTech</h3>
+          </div>
+          <div class="env-board-cards">
+            <div class="env-board-card" data-env-metric="implantacao">
+              <b>Implantação</b>
+              <strong>--</strong>
+              <small>carregando...</small>
+            </div>
+            <div class="env-board-card" data-env-metric="atualizacao">
+              <b>Atualização</b>
+              <strong>--</strong>
+              <small>carregando...</small>
+            </div>
+            <div class="env-board-card" data-env-metric="fidelidade">
+              <b>Fidelidade</b>
+              <strong>--</strong>
+              <small>carregando...</small>
+            </div>
+            <div class="env-board-card" data-env-metric="auditado">
+              <b>Auditado</b>
+              <strong>--</strong>
+              <small>carregando...</small>
+            </div>
+          </div>
+        </aside>
+        <aside class="env-board" data-env="oficial">
+          <div class="env-board-header" style="--accent: var(--oficial);">
+            <h3>Ambiente Oficial</h3>
+          </div>
+          <div class="env-board-cards">
+            <div class="env-board-card" data-env-metric="implantacao">
+              <b>Implantação</b>
+              <strong>--</strong>
+              <small>carregando...</small>
+            </div>
+            <div class="env-board-card" data-env-metric="atualizacao">
+              <b>Atualização</b>
+              <strong>--</strong>
+              <small>carregando...</small>
+            </div>
+            <div class="env-board-card" data-env-metric="fidelidade">
+              <b>Fidelidade</b>
+              <strong>--</strong>
+              <small>carregando...</small>
+            </div>
+            <div class="env-board-card" data-env-metric="auditado">
+              <b>Auditado</b>
+              <strong>--</strong>
+              <small>carregando...</small>
+            </div>
+          </div>
+        </aside>
+      </div>
     </section>
 
     <section id="ambientes">
@@ -539,6 +655,7 @@
             <div class="kpi"><small>Implantação</small><strong>62%</strong><span>246 / 399 etapas</span></div>
             <div class="kpi"><small>Atualização</small><strong>25%</strong><span>2 / 8 apps aplicáveis</span></div>
             <div class="kpi"><small>Fidelidade</small><strong>N/A</strong><span>Sem legado equivalente</span></div>
+            <div class="kpi"><small>Auditado</small><strong>N/A</strong><span>Sem legado equivalente</span></div>
           </div>
         </article>
 
@@ -556,6 +673,7 @@
             <div class="kpi"><small>Implantação</small><strong>81%</strong><span>175 / 215 apps + ferramentas</span></div>
             <div class="kpi"><small>Atualização</small><strong>75%</strong><span>6 / 8 apps aplicáveis</span></div>
             <div class="kpi"><small>Fidelidade</small><strong>60%</strong><span>3 / 5 apps auditáveis</span></div>
+            <div class="kpi"><small>Auditado</small><strong>40%</strong><span>2 / 5 apps auditáveis</span></div>
           </div>
         </article>
       </div>
@@ -568,6 +686,7 @@
           <p>Use os filtros para alternar entre ambientes. Valores N/A indicam projeto sem UI web, app ainda não criada ou métrica não aplicável ao tipo de projeto.</p>
         </div>
         <div class="filters" role="group" aria-label="Filtros da tabela">
+          <button class="filter-btn" type="button" data-filter="auditadas">Auditadas</button>
           <button class="filter-btn is-active" type="button" data-filter="todos">Todos</button>
           <button class="filter-btn" type="button" data-filter="hauxtech">HauxTech</button>
           <button class="filter-btn" type="button" data-filter="oficial">Oficial</button>
@@ -639,15 +758,53 @@
       if (element) element.textContent = value;
     }
 
-    function setMetric(selector, title, value, detail) {
-      const metric = document.querySelector(selector);
-      if (!metric) return;
-      const titleEl = metric.querySelector('b');
-      const valueEl = metric.querySelector('strong');
-      const detailEl = metric.querySelector('small');
-      if (titleEl) titleEl.textContent = title;
-      if (valueEl) valueEl.textContent = value;
-      if (detailEl) detailEl.textContent = detail;
+    function setEnvCard(env, metric, score, detail) {
+      const board = document.querySelector(`.env-board[data-env="${env}"]`);
+      if (!board) return;
+      const card = board.querySelector(`.env-board-card[data-env-metric="${metric}"]`);
+      if (!card) return;
+      const valueEl = card.querySelector('strong');
+      const detailEl = card.querySelector('small');
+      if (valueEl) valueEl.textContent = scoreLabel(score);
+      if (detailEl) detailEl.textContent = scoreDetail(score, detail);
+    }
+
+    function setEnvAuditado(env) {
+      const board = document.querySelector(`.env-board[data-env="${env}"]`);
+      if (!board) return;
+      const card = board.querySelector(`.env-board-card[data-env-metric="auditado"]`);
+      if (!card) return;
+      const valueEl = card.querySelector('strong');
+      const detailEl = card.querySelector('small');
+      const auditable = apps.filter(a => a.ambiente === env && a.auditada !== null);
+      const audited = apps.filter(a => a.ambiente === env && a.auditada === true);
+      if (auditable.length === 0) {
+        if (valueEl) valueEl.textContent = 'N/A';
+        if (detailEl) detailEl.textContent = 'Sem legado equivalente';
+      } else {
+        const pct = Math.round(audited.length / auditable.length * 100);
+        if (valueEl) valueEl.textContent = `${pct}%`;
+        if (detailEl) detailEl.textContent = `${audited.length} / ${auditable.length} apps auditáveis`;
+      }
+    }
+
+    function setKpiAuditado(panel, env) {
+      const kpi = panel.querySelectorAll('.kpi')[3];
+      if (!kpi) return;
+      const titleEl = kpi.querySelector('small');
+      const valueEl = kpi.querySelector('strong');
+      const detailEl = kpi.querySelector('span');
+      const auditable = apps.filter(a => a.ambiente === env && a.auditada !== null);
+      const audited = apps.filter(a => a.ambiente === env && a.auditada === true);
+      if (titleEl) titleEl.textContent = 'Auditado';
+      if (auditable.length === 0) {
+        if (valueEl) valueEl.textContent = 'N/A';
+        if (detailEl) detailEl.textContent = 'Sem legado equivalente';
+      } else {
+        const pct = Math.round(audited.length / auditable.length * 100);
+        if (valueEl) valueEl.textContent = `${pct}%`;
+        if (detailEl) detailEl.textContent = `${audited.length} / ${auditable.length} apps auditáveis`;
+      }
     }
 
     function setDial(panel, score, label) {
@@ -724,7 +881,8 @@
       apps.forEach(app => {
         const group = app.ambiente || app.grupo;
         const hasPending = app.implantacao === 0 || app.atualizacao === 0 || app.fidelidade === 0;
-        const hidden = filter !== 'todos' && filter !== group && !(filter === 'pendencia' && hasPending);
+        const isAuditada = app.auditada === true;
+        const hidden = filter !== 'todos' && filter !== group && !(filter === 'pendencia' && hasPending) && !(filter === 'auditadas' && isAuditada);
 
         const row = document.createElement('tr');
         row.dataset.group = group;
@@ -768,10 +926,15 @@
       const oficial = data.ambientes?.oficial || {};
       const updated = data.updated_at ? new Date(data.updated_at).toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' }) : 'data não informada';
 
-      setMetric('.metric.haux', 'HauxTech · Implantação', scoreLabel(haux.implantacao), scoreDetail(haux.implantacao, 'etapas mapeadas'));
-      setMetric('.metric.oficial', 'Oficial · Implantação', scoreLabel(oficial.implantacao), scoreDetail(oficial.implantacao, 'apps + ferramentas'));
-      setMetric('.metric.atencao', 'Atualização visual', `${scoreLabel(haux.atualizacao)} / ${scoreLabel(oficial.atualizacao)}`, 'HauxTech / Oficial');
-      setMetric('.metric.fidelidade', 'Fidelidade Oficial', scoreLabel(oficial.fidelidade), scoreDetail(oficial.fidelidade, 'apps auditáveis'));
+      setEnvCard('hauxtech', 'implantacao', haux.implantacao, 'etapas mapeadas');
+      setEnvCard('hauxtech', 'atualizacao', haux.atualizacao, 'apps aplicáveis');
+      setEnvCard('hauxtech', 'fidelidade', haux.fidelidade, 'Sem legado equivalente');
+      setEnvAuditado('hauxtech');
+
+      setEnvCard('oficial', 'implantacao', oficial.implantacao, 'apps + ferramentas');
+      setEnvCard('oficial', 'atualizacao', oficial.atualizacao, 'apps aplicáveis');
+      setEnvCard('oficial', 'fidelidade', oficial.fidelidade, 'apps auditáveis');
+      setEnvAuditado('oficial');
 
       const panels = document.querySelectorAll('.env-panel');
       if (panels[0]) {
@@ -781,6 +944,7 @@
         setKpi(panels[0], 0, 'Implantação', haux.implantacao, 'etapas');
         setKpi(panels[0], 1, 'Atualização', haux.atualizacao, 'apps aplicáveis');
         setKpi(panels[0], 2, 'Fidelidade', haux.fidelidade, 'Sem legado equivalente');
+        setKpiAuditado(panels[0], 'hauxtech');
       }
       if (panels[1]) {
         setDial(panels[1], oficial.implantacao, 'Consolidado');
@@ -789,6 +953,7 @@
         setKpi(panels[1], 0, 'Implantação', oficial.implantacao, 'apps + ferramentas');
         setKpi(panels[1], 1, 'Atualização', oficial.atualizacao, 'apps aplicáveis');
         setKpi(panels[1], 2, 'Fidelidade', oficial.fidelidade, 'apps auditáveis');
+        setKpiAuditado(panels[1], 'oficial');
       }
 
       const insights = Array.isArray(data.insights) ? data.insights : [];
