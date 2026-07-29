@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-07-29T13:13:16-03:00",
+  "updated_at": "2026-07-29T15:39:05-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -54,9 +54,9 @@
         "unidade": "apps aplicáveis"
       },
       "fidelidade": {
-        "percentual": 60,
-        "atual": 3,
-        "total": 5,
+        "percentual": 33,
+        "atual": 1,
+        "total": 3,
         "unidade": "apps aplicáveis"
       }
     }
@@ -70,10 +70,10 @@
       "implantacao": 100,
       "atualizacao": 0,
       "fidelidade": null,
+      "auditada": null,
       "status": "Em Produção",
       "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
-      "ordem": 1,
-      "auditada": null
+      "ordem": 1
     },
     {
       "nome": "monitor-vps",
@@ -83,10 +83,10 @@
       "implantacao": 100,
       "atualizacao": null,
       "fidelidade": null,
+      "auditada": null,
       "status": "Em Produção",
       "leitura": "Métrica visual/fidelidade não aplicável ao tipo de projeto.",
-      "ordem": 2,
-      "auditada": null
+      "ordem": 2
     },
     {
       "nome": "coreflow-crm-docs",
@@ -96,10 +96,10 @@
       "implantacao": 100,
       "atualizacao": null,
       "fidelidade": null,
+      "auditada": null,
       "status": "Em Produção (portal docs)",
       "leitura": "Métrica visual/fidelidade não aplicável ao tipo de projeto.",
-      "ordem": 3,
-      "auditada": null
+      "ordem": 3
     },
     {
       "nome": "StreamKeeper",
@@ -109,10 +109,10 @@
       "implantacao": 87,
       "atualizacao": 0,
       "fidelidade": null,
+      "auditada": null,
       "status": "Em Desenvolvimento",
       "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
-      "ordem": 4,
-      "auditada": null
+      "ordem": 4
     },
     {
       "nome": "HireFlow",
@@ -122,10 +122,10 @@
       "implantacao": 51,
       "atualizacao": 0,
       "fidelidade": null,
+      "auditada": null,
       "status": "Em Desenvolvimento",
       "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
-      "ordem": 5,
-      "auditada": null
+      "ordem": 5
     },
     {
       "nome": "CoreFlow ERP",
@@ -135,10 +135,10 @@
       "implantacao": 46,
       "atualizacao": 0,
       "fidelidade": null,
+      "auditada": null,
       "status": "Em Desenvolvimento",
       "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
-      "ordem": 6,
-      "auditada": null
+      "ordem": 6
     },
     {
       "nome": "CoreFlow CRM",
@@ -148,10 +148,10 @@
       "implantacao": 19,
       "atualizacao": 0,
       "fidelidade": null,
+      "auditada": null,
       "status": "Em Desenvolvimento",
       "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
-      "ordem": 7,
-      "auditada": null
+      "ordem": 7
     },
     {
       "nome": "CoreFlow Stock",
@@ -161,10 +161,10 @@
       "implantacao": 54,
       "atualizacao": 100,
       "fidelidade": null,
+      "auditada": null,
       "status": "Em Desenvolvimento",
       "leitura": "Migrada para o novo padrão visual hauxtech.",
-      "ordem": 8,
-      "auditada": null
+      "ordem": 8
     },
     {
       "nome": "CoreFlow Planner AI",
@@ -174,10 +174,10 @@
       "implantacao": 74,
       "atualizacao": 100,
       "fidelidade": null,
+      "auditada": null,
       "status": "Em Desenvolvimento",
       "leitura": "Origem/piloto do novo padrão visual.",
-      "ordem": 9,
-      "auditada": null
+      "ordem": 9
     },
     {
       "nome": "portal_hauxtech",
@@ -187,10 +187,10 @@
       "implantacao": null,
       "atualizacao": null,
       "fidelidade": null,
+      "auditada": null,
       "status": "Em Produção (landpage)",
       "leitura": "Sem métrica de implantação no consolidado principal.",
-      "ordem": 10,
-      "auditada": null
+      "ordem": 10
     },
     {
       "nome": "CoreFlow Time",
@@ -200,36 +200,36 @@
       "implantacao": 100,
       "atualizacao": 100,
       "fidelidade": null,
+      "auditada": null,
       "status": "Em Produção",
       "leitura": "Concluída no consolidado atual.",
-      "ordem": 999,
-      "auditada": null
+      "ordem": 999
     },
     {
       "nome": "Estoque",
       "ambiente": "oficial",
       "categoria": "Extração SGA Finalizada",
-      "subtitulo": "Em Produção",
+      "subtitulo": "0 CRÍTICAS · 1 ALTA · 1 MÉDIA · 3 BAIXAS",
       "implantacao": 100,
       "atualizacao": 100,
-      "fidelidade": 100,
-      "status": "Em Produção",
-      "leitura": "Auditada e sem pendência crítica aberta.",
-      "ordem": 11,
-      "auditada": true
+      "fidelidade": null,
+      "auditada": true,
+      "status": "0 CRÍTICAS · 1 ALTA · 1 MÉDIA · 3 BAIXAS",
+      "leitura": "Concluída no consolidado atual.",
+      "ordem": 11
     },
     {
       "nome": "Comex",
       "ambiente": "oficial",
       "categoria": "Extração SGA Finalizada",
-      "subtitulo": "Em Produção",
+      "subtitulo": "1 CRÍTICA + 4 ALTAS + 4 MÉDIAS + 9 BAIXAS",
       "implantacao": 100,
       "atualizacao": 100,
-      "fidelidade": 100,
-      "status": "Em Produção",
-      "leitura": "Auditada e sem pendência crítica aberta.",
-      "ordem": 12,
-      "auditada": true
+      "fidelidade": null,
+      "auditada": true,
+      "status": "1 CRÍTICA + 4 ALTAS + 4 MÉDIAS + 9 BAIXAS",
+      "leitura": "Concluída no consolidado atual.",
+      "ordem": 12
     },
     {
       "nome": "Administração",
@@ -239,10 +239,10 @@
       "implantacao": 100,
       "atualizacao": 100,
       "fidelidade": 0,
+      "auditada": false,
       "status": "Em Produção — aguarda auditoria de fidelidade",
       "leitura": "Implantada; aguarda auditoria retroativa de fidelidade.",
-      "ordem": 13,
-      "auditada": false
+      "ordem": 13
     },
     {
       "nome": "Financeiro",
@@ -252,10 +252,10 @@
       "implantacao": 100,
       "atualizacao": 100,
       "fidelidade": 0,
+      "auditada": false,
       "status": "Em Produção — aguarda auditoria de fidelidade",
       "leitura": "Implantada; aguarda auditoria retroativa de fidelidade.",
-      "ordem": 14,
-      "auditada": false
+      "ordem": 14
     },
     {
       "nome": "Inventário",
@@ -265,10 +265,10 @@
       "implantacao": 0,
       "atualizacao": null,
       "fidelidade": null,
+      "auditada": null,
       "status": "Não Iniciada",
       "leitura": "Ainda não iniciada.",
-      "ordem": 15,
-      "auditada": null
+      "ordem": 15
     },
     {
       "nome": "RH",
@@ -278,10 +278,10 @@
       "implantacao": 36,
       "atualizacao": 100,
       "fidelidade": 100,
+      "auditada": false,
       "status": "Scaffold + login + Novo Padrão Visual (.os-*) + vhost/SSL + primeiro deploy em produção",
       "leitura": "Auditada e sem pendência crítica aberta.",
-      "ordem": 16,
-      "auditada": false
+      "ordem": 16
     },
     {
       "nome": "Automação (rpa)",
@@ -291,10 +291,10 @@
       "implantacao": 100,
       "atualizacao": null,
       "fidelidade": null,
+      "auditada": null,
       "status": "Consolidada em ferramentas auxiliares",
       "leitura": "Concluída no consolidado atual.",
-      "ordem": 17,
-      "auditada": null
+      "ordem": 17
     },
     {
       "nome": "multi-ai (extração SGA)",
@@ -304,10 +304,10 @@
       "implantacao": 100,
       "atualizacao": null,
       "fidelidade": null,
+      "auditada": null,
       "status": "Consolidada em ferramentas auxiliares",
       "leitura": "Concluída no consolidado atual.",
-      "ordem": 18,
-      "auditada": null
+      "ordem": 18
     },
     {
       "nome": "Cadastros",
@@ -317,10 +317,10 @@
       "implantacao": 0,
       "atualizacao": null,
       "fidelidade": null,
+      "auditada": null,
       "status": "Não Iniciada",
       "leitura": "Ainda não iniciada.",
-      "ordem": 19,
-      "auditada": null
+      "ordem": 19
     },
     {
       "nome": "Cobrança",
@@ -330,10 +330,10 @@
       "implantacao": 0,
       "atualizacao": null,
       "fidelidade": null,
+      "auditada": null,
       "status": "Não Iniciada",
       "leitura": "Ainda não iniciada.",
-      "ordem": 20,
-      "auditada": null
+      "ordem": 20
     },
     {
       "nome": "monitor-rpa",
@@ -343,10 +343,10 @@
       "implantacao": 100,
       "atualizacao": 0,
       "fidelidade": null,
+      "auditada": null,
       "status": "Em Produção",
       "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
-      "ordem": 21,
-      "auditada": null
+      "ordem": 21
     },
     {
       "nome": "multi-rpa",
@@ -356,10 +356,10 @@
       "implantacao": 100,
       "atualizacao": null,
       "fidelidade": null,
+      "auditada": null,
       "status": "Em Produção",
       "leitura": "Métrica visual/fidelidade não aplicável ao tipo de projeto.",
-      "ordem": 22,
-      "auditada": null
+      "ordem": 22
     },
     {
       "nome": "multi-ai",
@@ -369,10 +369,10 @@
       "implantacao": 100,
       "atualizacao": 100,
       "fidelidade": null,
+      "auditada": null,
       "status": "Em Produção",
       "leitura": "Concluída no consolidado atual.",
-      "ordem": 23,
-      "auditada": null
+      "ordem": 23
     },
     {
       "nome": "gestor-imagem",
@@ -382,10 +382,10 @@
       "implantacao": 100,
       "atualizacao": 0,
       "fidelidade": null,
+      "auditada": null,
       "status": "Em Produção",
       "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
-      "ordem": 24,
-      "auditada": null
+      "ordem": 24
     },
     {
       "nome": "multi-aplicacao",
@@ -395,10 +395,10 @@
       "implantacao": 63,
       "atualizacao": null,
       "fidelidade": null,
+      "auditada": null,
       "status": "Em Desenvolvimento",
       "leitura": "Projeto guarda-chuva em acompanhamento consolidado.",
-      "ordem": 25,
-      "auditada": null
+      "ordem": 25
     }
   ],
   "insights": [
