@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-07-29T17:26:34-03:00",
+  "updated_at": "2026-07-30T08:56:36-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -380,11 +380,11 @@
       "categoria": "Ferramenta Auxiliar",
       "subtitulo": "Em Produção",
       "implantacao": 100,
-      "atualizacao": 0,
+      "atualizacao": 100,
       "fidelidade": null,
       "auditada": null,
       "status": "Em Produção",
-      "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
+      "leitura": "Concluída no consolidado atual.",
       "ordem": 24
     },
     {
@@ -399,6 +399,19 @@
       "status": "Em Desenvolvimento",
       "leitura": "Projeto guarda-chuva em acompanhamento consolidado.",
       "ordem": 25
+    },
+    {
+      "nome": "monitor-rpa / ⚙️ multi-rpa",
+      "ambiente": "oficial",
+      "categoria": "Aplicação",
+      "subtitulo": "AppRegistrada.slug corrigido (monitor_rpa → rpa, batia com o schema real); dois stacks Swarm separados (web + celery/beat, repositório multi-rpa) migrados juntos para o mesmo role monitor_rpa_user",
+      "implantacao": null,
+      "atualizacao": 100,
+      "fidelidade": null,
+      "auditada": null,
+      "status": "AppRegistrada.slug corrigido (monitor_rpa → rpa, batia com o schema real); dois stacks Swarm separados (web + celery/beat, repositório multi-rpa) migrados juntos para o mesmo role monitor_rpa_user",
+      "leitura": "Sem métrica de implantação no consolidado principal.",
+      "ordem": 999
     }
   ],
   "insights": [
