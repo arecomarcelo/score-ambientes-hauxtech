@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-07-31T13:55:43-03:00",
+  "updated_at": "2026-07-31T13:56:49-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -54,8 +54,8 @@
         "unidade": "apps aplicáveis"
       },
       "fidelidade": {
-        "percentual": 0,
-        "atual": 0,
+        "percentual": 33,
+        "atual": 1,
         "total": 3,
         "unidade": "apps aplicáveis"
       }
@@ -277,10 +277,10 @@
       "subtitulo": "Scaffold + login + Novo Padrão Visual (.os-*) + vhost/SSL + primeiro deploy em produção",
       "implantacao": 36,
       "atualizacao": 100,
-      "fidelidade": null,
-      "auditada": null,
+      "fidelidade": 100,
+      "auditada": false,
       "status": "Scaffold + login + Novo Padrão Visual (.os-*) + vhost/SSL + primeiro deploy em produção",
-      "leitura": "Em avanço no consolidado atual.",
+      "leitura": "Auditada e sem pendência crítica aberta.",
       "ordem": 16
     },
     {
