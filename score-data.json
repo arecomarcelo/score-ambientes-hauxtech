@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-07-31T14:16:57-03:00",
+  "updated_at": "2026-07-31T14:35:30-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -48,9 +48,9 @@
         "unidade": "apps + ferramentas + guarda-chuva"
       },
       "atualizacao": {
-        "percentual": 75,
-        "atual": 6,
-        "total": 8,
+        "percentual": 78,
+        "atual": 7,
+        "total": 9,
         "unidade": "apps aplicáveis"
       },
       "fidelidade": {
@@ -263,7 +263,7 @@
       "categoria": "Extração SGA",
       "subtitulo": "Não Iniciada",
       "implantacao": 18,
-      "atualizacao": null,
+      "atualizacao": 100,
       "fidelidade": null,
       "auditada": null,
       "status": "Não Iniciada",
@@ -399,6 +399,19 @@
       "status": "Em Desenvolvimento",
       "leitura": "Projeto guarda-chuva em acompanhamento consolidado.",
       "ordem": 25
+    },
+    {
+      "nome": "Cadastros / 💳 Cobrança",
+      "ambiente": "oficial",
+      "categoria": "Aplicação",
+      "subtitulo": "N/A (apps ainda não criadas)",
+      "implantacao": null,
+      "atualizacao": null,
+      "fidelidade": null,
+      "auditada": null,
+      "status": "N/A (apps ainda não criadas)",
+      "leitura": "Sem métrica de implantação no consolidado principal.",
+      "ordem": 999
     },
     {
       "nome": "monitor-rpa / ⚙️ multi-rpa",
