@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-07-31T14:59:44-03:00",
+  "updated_at": "2026-07-31T15:04:25-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -24,14 +24,14 @@
       "label": "Oficial",
       "descricao": "Aplicações do ecossistema Oficial, incluindo extrações do legado SGA, ferramentas auxiliares e auditoria de fidelidade funcional.",
       "implantacao": {
-        "percentual": 82,
-        "atual": 177,
+        "percentual": 84,
+        "atual": 180,
         "total": 215,
         "unidade": "apps + ferramentas"
       },
       "implantacao_sga": {
-        "percentual": 57,
-        "atual": 50,
+        "percentual": 60,
+        "atual": 53,
         "total": 88,
         "unidade": "itens"
       },
@@ -42,8 +42,8 @@
         "unidade": "etapas"
       },
       "implantacao_com_guarda_chuva": {
-        "percentual": 81,
-        "atual": 187,
+        "percentual": 82,
+        "atual": 190,
         "total": 231,
         "unidade": "apps + ferramentas + guarda-chuva"
       },
@@ -275,7 +275,7 @@
       "ambiente": "oficial",
       "categoria": "Extração SGA",
       "subtitulo": "Scaffold + login + Novo Padrão Visual (.os-*) + vhost/SSL + primeiro deploy em produção",
-      "implantacao": 36,
+      "implantacao": 64,
       "atualizacao": 100,
       "fidelidade": 100,
       "auditada": false,
