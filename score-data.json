@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-04T13:54:58-03:00",
+  "updated_at": "2026-08-04T16:47:09-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -349,19 +349,6 @@
       "ordem": 21
     },
     {
-      "nome": "multi-rpa",
-      "ambiente": "oficial",
-      "categoria": "Ferramenta Auxiliar",
-      "subtitulo": "Em Produção",
-      "implantacao": 100,
-      "atualizacao": null,
-      "fidelidade": null,
-      "auditada": null,
-      "status": "Em Produção",
-      "leitura": "Métrica visual/fidelidade não aplicável ao tipo de projeto.",
-      "ordem": 22
-    },
-    {
       "nome": "gestor-imagem",
       "ambiente": "oficial",
       "categoria": "Ferramenta Auxiliar",
@@ -401,15 +388,15 @@
       "ordem": 999
     },
     {
-      "nome": "monitor-rpa / ⚙️ multi-rpa",
+      "nome": "monitor-rpa / ⚙️ rpa",
       "ambiente": "oficial",
       "categoria": "Aplicação",
-      "subtitulo": "AppRegistrada.slug corrigido (monitor_rpa → rpa, batia com o schema real); dois stacks Swarm separados (web + celery/beat, repositório multi-rpa) migrados juntos para o mesmo role monitor_rpa_user",
+      "subtitulo": "AppRegistrada.slug corrigido (monitor_rpa → rpa, batia com o schema real); dois stacks Swarm separados (web + celery/beat, repositório rpa) migrados juntos para o mesmo role monitor_rpa_user",
       "implantacao": null,
       "atualizacao": 100,
       "fidelidade": null,
       "auditada": null,
-      "status": "AppRegistrada.slug corrigido (monitor_rpa → rpa, batia com o schema real); dois stacks Swarm separados (web + celery/beat, repositório multi-rpa) migrados juntos para o mesmo role monitor_rpa_user",
+      "status": "AppRegistrada.slug corrigido (monitor_rpa → rpa, batia com o schema real); dois stacks Swarm separados (web + celery/beat, repositório rpa) migrados juntos para o mesmo role monitor_rpa_user",
       "leitura": "Sem métrica de implantação no consolidado principal.",
       "ordem": 999
     },
@@ -420,6 +407,19 @@
       "subtitulo": "Em Produção",
       "implantacao": 100,
       "atualizacao": 100,
+      "fidelidade": null,
+      "auditada": null,
+      "status": "Em Produção",
+      "leitura": "Concluída no consolidado atual.",
+      "ordem": 999
+    },
+    {
+      "nome": "rpa",
+      "ambiente": "oficial",
+      "categoria": "Ferramenta Auxiliar",
+      "subtitulo": "Em Produção",
+      "implantacao": 100,
+      "atualizacao": null,
       "fidelidade": null,
       "auditada": null,
       "status": "Em Produção",
