@@ -1,6 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-05T14:22:00-03:00",  "source_label": "Score de Implantação consolidado",
+  "updated_at": "2026-08-05T14:22:00-03:00",
+  "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
       "label": "HauxTech",
@@ -247,11 +248,13 @@
       "nome": "Financeiro",
       "ambiente": "oficial",
       "categoria": "Extração SGA Finalizada",
-      "subtitulo": "Auditada 05/08/2026 — sem CRÍTICA aberta (dívida técnica: 2 ALTAS + 3 MÉDIAS + 4 BAIXAS)",      "implantacao": 100,
+      "subtitulo": "Auditada 05/08/2026 — sem CRÍTICA aberta (2 ALTAS corrigidas na mesma sessão; dívida técnica: 3 MÉDIAS + 4 BAIXAS)",
+      "implantacao": 100,
       "atualizacao": 100,
       "fidelidade": null,
       "auditada": true,
-      "status": "Auditada 05/08/2026 — sem CRÍTICA aberta (dívida técnica: 2 ALTAS + 3 MÉDIAS + 4 BAIXAS)",      "leitura": "Concluída no consolidado atual.",
+      "status": "Auditada 05/08/2026 — sem CRÍTICA aberta (2 ALTAS corrigidas na mesma sessão; dívida técnica: 3 MÉDIAS + 4 BAIXAS)",
+      "leitura": "Concluída no consolidado atual.",
       "ordem": 14
     },
     {
