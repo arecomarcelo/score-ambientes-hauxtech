@@ -643,8 +643,8 @@
       <div class="environment-grid">
         <article class="env-panel">
           <div class="env-header">
-            <div class="dial" style="--value: 62; --accent: var(--haux);" aria-label="HauxTech implantação 62 por cento">
-              <div><span>62%</span><small>Implantação</small></div>
+            <div class="dial" style="--value: 0; --accent: var(--haux);" aria-label="HauxTech implantação carregando">
+              <div><span>--</span><small>Implantação</small></div>
             </div>
             <div class="env-title">
               <h3>Ambiente HauxTech</h3>
@@ -652,8 +652,8 @@
             </div>
           </div>
           <div class="kpis">
-            <div class="kpi"><small>Implantação</small><strong>62%</strong><span>246 / 399 etapas</span></div>
-            <div class="kpi"><small>Atualização</small><strong>25%</strong><span>2 / 8 apps aplicáveis</span></div>
+            <div class="kpi"><small>Implantação</small><strong>--</strong><span>--</span></div>
+            <div class="kpi"><small>Atualização</small><strong>--</strong><span>--</span></div>
             <div class="kpi"><small>Fidelidade</small><strong>N/A</strong><span>Sem legado equivalente</span></div>
             <div class="kpi"><small>Auditado</small><strong>N/A</strong><span>Sem legado equivalente</span></div>
           </div>
@@ -661,8 +661,8 @@
 
         <article class="env-panel">
           <div class="env-header">
-            <div class="dial" style="--value: 81; --accent: var(--oficial);" aria-label="Oficial implantação consolidada 81 por cento">
-              <div><span>81%</span><small>Consolidado</small></div>
+            <div class="dial" style="--value: 0; --accent: var(--oficial);" aria-label="Oficial implantação consolidada carregando">
+              <div><span>--</span><small>Consolidado</small></div>
             </div>
             <div class="env-title">
               <h3>Ambiente Oficial</h3>
@@ -670,10 +670,10 @@
             </div>
           </div>
           <div class="kpis">
-            <div class="kpi"><small>Implantação</small><strong>81%</strong><span>175 / 215 apps + ferramentas</span></div>
-            <div class="kpi"><small>Atualização</small><strong>75%</strong><span>6 / 8 apps aplicáveis</span></div>
-            <div class="kpi"><small>Fidelidade</small><strong>60%</strong><span>3 / 5 apps auditáveis</span></div>
-            <div class="kpi"><small>Auditado</small><strong>40%</strong><span>2 / 5 apps auditáveis</span></div>
+            <div class="kpi"><small>Implantação</small><strong>--</strong><span>--</span></div>
+            <div class="kpi"><small>Atualização</small><strong>--</strong><span>--</span></div>
+            <div class="kpi"><small>Fidelidade</small><strong>--</strong><span>--</span></div>
+            <div class="kpi"><small>Auditado</small><strong>--</strong><span>--</span></div>
           </div>
         </article>
       </div>
@@ -705,6 +705,7 @@
                 <th>Implantação</th>
                 <th>Atualização</th>
                 <th>Fidelidade</th>
+                <th>Auditoria</th>
                 <th>Status / Leitura</th>
               </tr>
             </thead>
@@ -910,10 +911,19 @@
         const fidelidadeCell = document.createElement('td');
         appendBadge(fidelidadeCell, pctText(app.fidelidade), badgeClass(app.fidelidade));
 
+        const auditoriaCell = document.createElement('td');
+        if (app.auditada === true) {
+          appendBadge(auditoriaCell, '✅ Auditada', 'ok');
+        } else if (app.auditada === false) {
+          appendBadge(auditoriaCell, '⬜ Não auditada', 'warn');
+        } else {
+          appendBadge(auditoriaCell, 'N/A', 'na');
+        }
+
         const leituraCell = document.createElement('td');
         leituraCell.textContent = app.leitura || app.status || 'Em acompanhamento.';
 
-        row.append(nameCell, groupCell, implantacaoCell, atualizacaoCell, fidelidadeCell, leituraCell);
+        row.append(nameCell, groupCell, implantacaoCell, atualizacaoCell, fidelidadeCell, auditoriaCell, leituraCell);
         tbody.appendChild(row);
       });
     }

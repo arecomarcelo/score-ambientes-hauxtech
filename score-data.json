@@ -1,7 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-05T14:10:35-03:00",
-  "source_label": "Score de Implantação consolidado",
+  "updated_at": "2026-08-05T14:22:00-03:00",  "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
       "label": "HauxTech",
@@ -209,12 +208,12 @@
       "nome": "Estoque",
       "ambiente": "oficial",
       "categoria": "Extração SGA Finalizada",
-      "subtitulo": "1 CRÍTICA (fallback ModelBackend permitia login com senha revogada após reset",
+      "subtitulo": "Auditada 30/07/2026 — CRÍTICA corrigida, sem pendência aberta (dívida técnica: 2 ALTAS · 1 MÉDIA · 1 BAIXA)",
       "implantacao": 100,
       "atualizacao": 100,
       "fidelidade": null,
       "auditada": true,
-      "status": "1 CRÍTICA (fallback ModelBackend permitia login com senha revogada após reset",
+      "status": "Auditada 30/07/2026 — CRÍTICA corrigida, sem pendência aberta (dívida técnica: 2 ALTAS · 1 MÉDIA · 1 BAIXA)",
       "leitura": "Concluída no consolidado atual.",
       "ordem": 11
     },
@@ -222,12 +221,12 @@
       "nome": "Comex",
       "ambiente": "oficial",
       "categoria": "Extração SGA Finalizada",
-      "subtitulo": "1 CRÍTICA + 4 ALTAS + 4 MÉDIAS + 9 BAIXAS",
+      "subtitulo": "Auditada 29/07/2026 — sem CRÍTICA aberta (16/18 divergências corrigidas, 1 dívida técnica, 1 falso-positivo)",
       "implantacao": 100,
       "atualizacao": 100,
       "fidelidade": null,
       "auditada": true,
-      "status": "1 CRÍTICA + 4 ALTAS + 4 MÉDIAS + 9 BAIXAS",
+      "status": "Auditada 29/07/2026 — sem CRÍTICA aberta (16/18 divergências corrigidas, 1 dívida técnica, 1 falso-positivo)",
       "leitura": "Concluída no consolidado atual.",
       "ordem": 12
     },
@@ -248,13 +247,11 @@
       "nome": "Financeiro",
       "ambiente": "oficial",
       "categoria": "Extração SGA Finalizada",
-      "subtitulo": "0 CRÍTICA · 2 ALTAS + 3 MÉDIAS + 4 BAIXAS encontradas",
-      "implantacao": 100,
+      "subtitulo": "Auditada 05/08/2026 — sem CRÍTICA aberta (dívida técnica: 2 ALTAS + 3 MÉDIAS + 4 BAIXAS)",      "implantacao": 100,
       "atualizacao": 100,
       "fidelidade": null,
       "auditada": true,
-      "status": "0 CRÍTICA · 2 ALTAS + 3 MÉDIAS + 4 BAIXAS encontradas",
-      "leitura": "Concluída no consolidado atual.",
+      "status": "Auditada 05/08/2026 — sem CRÍTICA aberta (dívida técnica: 2 ALTAS + 3 MÉDIAS + 4 BAIXAS)",      "leitura": "Concluída no consolidado atual.",
       "ordem": 14
     },
     {
@@ -280,7 +277,7 @@
       "fidelidade": 100,
       "auditada": false,
       "status": "Scaffold + login + Novo Padrão Visual (.os-*) + vhost/SSL + primeiro deploy em produção",
-      "leitura": "Auditada e sem pendência crítica aberta.",
+      "leitura": "Auditoria de fidelidade concluída (31/07/2026, sem CRÍTICA aberta), mas não consta em 'Aplicações Auditadas ✅' — app em 64% de implementação.",
       "ordem": 16
     },
     {
@@ -354,11 +351,11 @@
       "categoria": "Ferramenta Auxiliar",
       "subtitulo": "Em Produção",
       "implantacao": 100,
-      "atualizacao": 100,
+      "atualizacao": 0,
       "fidelidade": null,
       "auditada": null,
       "status": "Em Produção",
-      "leitura": "Concluída no consolidado atual.",
+      "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
       "ordem": 24
     },
     {
@@ -384,19 +381,6 @@
       "fidelidade": null,
       "auditada": null,
       "status": "N/A (apps ainda não criadas)",
-      "leitura": "Sem métrica de implantação no consolidado principal.",
-      "ordem": 999
-    },
-    {
-      "nome": "monitor-rpa / ⚙️ rpa",
-      "ambiente": "oficial",
-      "categoria": "Aplicação",
-      "subtitulo": "AppRegistrada.slug corrigido (monitor_rpa → rpa, batia com o schema real); dois stacks Swarm separados (web + celery/beat, repositório rpa) migrados juntos para o mesmo role monitor_rpa_user",
-      "implantacao": null,
-      "atualizacao": 100,
-      "fidelidade": null,
-      "auditada": null,
-      "status": "AppRegistrada.slug corrigido (monitor_rpa → rpa, batia com o schema real); dois stacks Swarm separados (web + celery/beat, repositório rpa) migrados juntos para o mesmo role monitor_rpa_user",
       "leitura": "Sem métrica de implantação no consolidado principal.",
       "ordem": 999
     },
