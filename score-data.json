@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-04T16:47:09-03:00",
+  "updated_at": "2026-08-05T08:40:21-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -411,6 +411,19 @@
       "auditada": null,
       "status": "Em Produção",
       "leitura": "Concluída no consolidado atual.",
+      "ordem": 999
+    },
+    {
+      "nome": "Relatórios",
+      "ambiente": "oficial",
+      "categoria": "Extração SGA",
+      "subtitulo": "Scaffold + Fase 1/Estoque concluídos",
+      "implantacao": 30,
+      "atualizacao": null,
+      "fidelidade": null,
+      "auditada": null,
+      "status": "Scaffold + Fase 1/Estoque concluídos",
+      "leitura": "Em avanço no consolidado atual.",
       "ordem": 999
     },
     {
