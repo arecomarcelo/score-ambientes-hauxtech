@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-05T13:33:24-03:00",
+  "updated_at": "2026-08-05T13:53:18-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -54,9 +54,9 @@
         "unidade": "apps aplicáveis"
       },
       "fidelidade": {
-        "percentual": 33,
+        "percentual": 50,
         "atual": 1,
-        "total": 3,
+        "total": 2,
         "unidade": "apps aplicáveis"
       }
     }
@@ -247,14 +247,14 @@
     {
       "nome": "Financeiro",
       "ambiente": "oficial",
-      "categoria": "Extração SGA",
-      "subtitulo": "Em Produção — aguarda auditoria de fidelidade",
+      "categoria": "Extração SGA Finalizada",
+      "subtitulo": "0 CRÍTICA · 2 ALTAS (zero testes automatizados",
       "implantacao": 100,
       "atualizacao": 100,
-      "fidelidade": 0,
-      "auditada": false,
-      "status": "Em Produção — aguarda auditoria de fidelidade",
-      "leitura": "Implantada; aguarda auditoria retroativa de fidelidade.",
+      "fidelidade": null,
+      "auditada": true,
+      "status": "0 CRÍTICA · 2 ALTAS (zero testes automatizados",
+      "leitura": "Concluída no consolidado atual.",
       "ordem": 14
     },
     {
