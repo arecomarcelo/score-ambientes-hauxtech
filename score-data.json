@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-06T10:18:46-03:00",
+  "updated_at": "2026-08-06T13:15:25-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -25,13 +25,13 @@
       "descricao": "Aplicações do ecossistema Oficial, incluindo extrações do legado SGA, ferramentas auxiliares e auditoria de fidelidade funcional.",
       "implantacao": {
         "percentual": 78,
-        "atual": 176,
+        "atual": 177,
         "total": 227,
         "unidade": "apps + ferramentas"
       },
       "implantacao_sga": {
-        "percentual": 49,
-        "atual": 49,
+        "percentual": 50,
+        "atual": 50,
         "total": 100,
         "unidade": "itens"
       },
@@ -43,7 +43,7 @@
       },
       "implantacao_com_guarda_chuva": {
         "percentual": 77,
-        "atual": 186,
+        "atual": 187,
         "total": 243,
         "unidade": "apps + ferramentas + guarda-chuva"
       },
@@ -274,12 +274,12 @@
       "nome": "RH",
       "ambiente": "oficial",
       "categoria": "Extração SGA",
-      "subtitulo": "Scaffold + login + Novo Padrão Visual (.os-*) + vhost/SSL + primeiro deploy em produção",
-      "implantacao": 64,
+      "subtitulo": "Scaffold + login + Novo Padrão Visual (.os-*) + vhost/SSL + deploy em produção + Log Duplo/logs integrados",
+      "implantacao": 73,
       "atualizacao": 100,
       "fidelidade": 100,
       "auditada": false,
-      "status": "Scaffold + login + Novo Padrão Visual (.os-*) + vhost/SSL + primeiro deploy em produção",
+      "status": "Scaffold + login + Novo Padrão Visual (.os-*) + vhost/SSL + deploy em produção + Log Duplo/logs integrados",
       "leitura": "Auditada e sem pendência crítica aberta.",
       "ordem": 16
     },
