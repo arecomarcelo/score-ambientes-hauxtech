@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-06T13:15:25-03:00",
+  "updated_at": "2026-08-06T17:41:07-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -24,14 +24,14 @@
       "label": "Oficial",
       "descricao": "Aplicações do ecossistema Oficial, incluindo extrações do legado SGA, ferramentas auxiliares e auditoria de fidelidade funcional.",
       "implantacao": {
-        "percentual": 78,
-        "atual": 177,
+        "percentual": 79,
+        "atual": 180,
         "total": 227,
         "unidade": "apps + ferramentas"
       },
       "implantacao_sga": {
-        "percentual": 50,
-        "atual": 50,
+        "percentual": 53,
+        "atual": 53,
         "total": 100,
         "unidade": "itens"
       },
@@ -42,8 +42,8 @@
         "unidade": "etapas"
       },
       "implantacao_com_guarda_chuva": {
-        "percentual": 77,
-        "atual": 187,
+        "percentual": 78,
+        "atual": 190,
         "total": 243,
         "unidade": "apps + ferramentas + guarda-chuva"
       },
@@ -54,9 +54,9 @@
         "unidade": "apps aplicáveis"
       },
       "fidelidade": {
-        "percentual": 50,
-        "atual": 1,
-        "total": 2,
+        "percentual": 0,
+        "atual": 0,
+        "total": 1,
         "unidade": "apps aplicáveis"
       }
     }
@@ -273,14 +273,14 @@
     {
       "nome": "RH",
       "ambiente": "oficial",
-      "categoria": "Extração SGA",
-      "subtitulo": "Scaffold + login + Novo Padrão Visual (.os-*) + vhost/SSL + deploy em produção + Log Duplo/logs integrados",
-      "implantacao": 73,
+      "categoria": "Extração SGA Finalizada",
+      "subtitulo": "2ª auditoria (checkpoint pós-SP01)",
+      "implantacao": 100,
       "atualizacao": 100,
-      "fidelidade": 100,
-      "auditada": false,
-      "status": "Scaffold + login + Novo Padrão Visual (.os-*) + vhost/SSL + deploy em produção + Log Duplo/logs integrados",
-      "leitura": "Auditada e sem pendência crítica aberta.",
+      "fidelidade": null,
+      "auditada": true,
+      "status": "2ª auditoria (checkpoint pós-SP01)",
+      "leitura": "Concluída no consolidado atual.",
       "ordem": 16
     },
     {
