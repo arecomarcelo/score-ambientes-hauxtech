@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-10T07:56:08-03:00",
+  "updated_at": "2026-08-10T13:34:57-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -274,12 +274,12 @@
       "nome": "RH",
       "ambiente": "oficial",
       "categoria": "Extração SGA Finalizada",
-      "subtitulo": "2ª auditoria (checkpoint pós-SP01)",
+      "subtitulo": "3ª rodada (1ª e 2ª via 05-verificar-fidelidade-legado em 31/07 e 06/08/2026, ambas sem CRÍTICA aberta ao final). Escopo desta rodada: módulos nunca auditados (SP04-SP07",
       "implantacao": 100,
       "atualizacao": 100,
       "fidelidade": null,
       "auditada": true,
-      "status": "2ª auditoria (checkpoint pós-SP01)",
+      "status": "3ª rodada (1ª e 2ª via 05-verificar-fidelidade-legado em 31/07 e 06/08/2026, ambas sem CRÍTICA aberta ao final). Escopo desta rodada: módulos nunca auditados (SP04-SP07",
       "leitura": "Concluída no consolidado atual.",
       "ordem": 16
     },
