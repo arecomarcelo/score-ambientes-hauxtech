@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-12T11:29:53-03:00",
+  "updated_at": "2026-08-12T11:37:38-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -54,10 +54,10 @@
         "unidade": "apps aplicáveis"
       },
       "fidelidade": {
-        "percentual": 0,
+        "percentual": 100,
         "atual": 0,
-        "total": 1,
-        "unidade": "apps aplicáveis"
+        "total": 0,
+        "unidade": "apps aplicáveis restantes"
       }
     }
   },
@@ -234,14 +234,14 @@
     {
       "nome": "Administração",
       "ambiente": "oficial",
-      "categoria": "Extração SGA",
-      "subtitulo": "Em Produção — aguarda auditoria de fidelidade",
+      "categoria": "Extração SGA Finalizada",
+      "subtitulo": "Em Produção · Auditada ✅",
       "implantacao": 100,
       "atualizacao": 100,
-      "fidelidade": 0,
-      "auditada": false,
-      "status": "Em Produção — aguarda auditoria de fidelidade",
-      "leitura": "Implantada; aguarda auditoria retroativa de fidelidade.",
+      "fidelidade": null,
+      "auditada": true,
+      "status": "Em Produção",
+      "leitura": "Concluída no consolidado atual.",
       "ordem": 13
     },
     {
