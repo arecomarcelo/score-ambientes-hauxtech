@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-12T11:10:44-03:00",
+  "updated_at": "2026-08-12T11:20:41-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -294,7 +294,7 @@
       "auditada": null,
       "status": "Não Iniciada",
       "leitura": "Ainda não iniciada.",
-      "ordem": 19
+      "ordem": 17
     },
     {
       "nome": "Cobrança",
@@ -307,7 +307,7 @@
       "auditada": null,
       "status": "Não Iniciada",
       "leitura": "Ainda não iniciada.",
-      "ordem": 20
+      "ordem": 18
     },
     {
       "nome": "monitor-rpa",
@@ -320,6 +320,32 @@
       "auditada": null,
       "status": "Em Produção",
       "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
+      "ordem": 19
+    },
+    {
+      "nome": "rpa",
+      "ambiente": "oficial",
+      "categoria": "Ferramenta Auxiliar",
+      "subtitulo": "Em Produção",
+      "implantacao": 100,
+      "atualizacao": null,
+      "fidelidade": null,
+      "auditada": null,
+      "status": "Em Produção",
+      "leitura": "Concluída no consolidado atual.",
+      "ordem": 20
+    },
+    {
+      "nome": "oficial-ai",
+      "ambiente": "oficial",
+      "categoria": "Ferramenta Auxiliar",
+      "subtitulo": "Em Produção",
+      "implantacao": 100,
+      "atualizacao": 100,
+      "fidelidade": null,
+      "auditada": true,
+      "status": "Em Produção",
+      "leitura": "Concluída no consolidado atual.",
       "ordem": 21
     },
     {
@@ -333,7 +359,7 @@
       "auditada": null,
       "status": "Em Produção",
       "leitura": "Concluída no consolidado atual.",
-      "ordem": 24
+      "ordem": 22
     },
     {
       "nome": "multi-aplicacao",
@@ -346,20 +372,7 @@
       "auditada": null,
       "status": "Em Desenvolvimento",
       "leitura": "Projeto guarda-chuva em acompanhamento consolidado.",
-      "ordem": 25
-    },
-    {
-      "nome": "oficial-ai",
-      "ambiente": "oficial",
-      "categoria": "Ferramenta Auxiliar",
-      "subtitulo": "Em Produção",
-      "implantacao": 100,
-      "atualizacao": 100,
-      "fidelidade": null,
-      "auditada": true,
-      "status": "Em Produção",
-      "leitura": "Concluída no consolidado atual.",
-      "ordem": 999
+      "ordem": 23
     },
     {
       "nome": "Relatórios",
@@ -373,19 +386,6 @@
       "status": "Scaffold + Fase 1/Estoque concluídos",
       "leitura": "Em avanço no consolidado atual.",
       "ordem": 999
-    },
-    {
-      "nome": "rpa",
-      "ambiente": "oficial",
-      "categoria": "Ferramenta Auxiliar",
-      "subtitulo": "Em Produção",
-      "implantacao": 100,
-      "atualizacao": null,
-      "fidelidade": null,
-      "auditada": null,
-      "status": "Em Produção",
-      "leitura": "Concluída no consolidado atual.",
-      "ordem": 999
     }
   ],
   "insights": [
@@ -395,11 +395,11 @@
     },
     {
       "titulo": "Oficial: fidelidade depende de auditorias retroativas.",
-      "texto": "Administração é a única extração SGA 100% ainda sem auditoria formal de fidelidade contra o legado."
+      "texto": "Administração e Financeiro já estão implantadas, mas ainda dependem da auditoria formal de fidelidade contra o legado."
     },
     {
       "titulo": "Oficial SGA ainda tem apps não iniciadas.",
-      "texto": "Cadastros e Cobrança seguem sem implantação no consolidado atual do núcleo SGA."
+      "texto": "Inventário, Cadastros e Cobrança seguem sem implantação no consolidado atual do núcleo SGA."
     }
   ],
   "notas": [
