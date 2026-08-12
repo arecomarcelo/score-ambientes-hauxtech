@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-12T15:30:00-03:00",
+  "updated_at": "2026-08-12T11:10:44-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -284,32 +284,6 @@
       "ordem": 16
     },
     {
-      "nome": "Automação (rpa)",
-      "ambiente": "oficial",
-      "categoria": "Extração SGA",
-      "subtitulo": "Consolidada em ferramentas auxiliares",
-      "implantacao": 100,
-      "atualizacao": null,
-      "fidelidade": null,
-      "auditada": null,
-      "status": "Consolidada em ferramentas auxiliares",
-      "leitura": "Concluída no consolidado atual.",
-      "ordem": 17
-    },
-    {
-      "nome": "multi-ai (extração SGA)",
-      "ambiente": "oficial",
-      "categoria": "Extração SGA",
-      "subtitulo": "Consolidada em ferramentas auxiliares",
-      "implantacao": 100,
-      "atualizacao": null,
-      "fidelidade": null,
-      "auditada": null,
-      "status": "Consolidada em ferramentas auxiliares",
-      "leitura": "Concluída no consolidado atual.",
-      "ordem": 18
-    },
-    {
       "nome": "Cadastros",
       "ambiente": "oficial",
       "categoria": "Extração SGA",
@@ -430,6 +404,7 @@
   ],
   "notas": [
     "O projeto guarda-chuva multi-aplicacao é exibido separadamente e também compõe o cálculo opcional com guarda-chuva.",
-    "Valores N/A indicam métrica não aplicável ao tipo do projeto ou app ainda não criada."
+    "Valores N/A indicam métrica não aplicável ao tipo do projeto ou app ainda não criada.",
+    "Automação (rpa) e multi-ai (extração SGA) foram consolidadas em 14/07/2026 nas ferramentas auxiliares (rpa/monitor-rpa e oficial-ai) — itens históricos do checklist SGA, sem entrada própria no dashboard."
   ]
 }
