@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-12T11:20:41-03:00",
+  "updated_at": "2026-08-12T11:29:53-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -24,27 +24,27 @@
       "label": "Oficial",
       "descricao": "Aplicações do ecossistema Oficial, incluindo extrações do legado SGA, ferramentas auxiliares e auditoria de fidelidade funcional.",
       "implantacao": {
-        "percentual": 82,
-        "atual": 177,
-        "total": 216,
+        "percentual": 79,
+        "atual": 179,
+        "total": 227,
         "unidade": "apps + ferramentas"
       },
       "implantacao_sga": {
-        "percentual": 56,
+        "percentual": 64,
         "atual": 50,
-        "total": 89,
+        "total": 78,
         "unidade": "itens"
       },
       "implantacao_ferramentas": {
-        "percentual": 100,
-        "atual": 127,
-        "total": 127,
+        "percentual": 87,
+        "atual": 129,
+        "total": 149,
         "unidade": "etapas"
       },
       "implantacao_com_guarda_chuva": {
-        "percentual": 81,
-        "atual": 187,
-        "total": 232,
+        "percentual": 78,
+        "atual": 189,
+        "total": 243,
         "unidade": "apps + ferramentas + guarda-chuva"
       },
       "atualizacao": {
@@ -297,19 +297,6 @@
       "ordem": 17
     },
     {
-      "nome": "Cobrança",
-      "ambiente": "oficial",
-      "categoria": "Extração SGA",
-      "subtitulo": "Não Iniciada",
-      "implantacao": 0,
-      "atualizacao": null,
-      "fidelidade": null,
-      "auditada": null,
-      "status": "Não Iniciada",
-      "leitura": "Ainda não iniciada.",
-      "ordem": 18
-    },
-    {
       "nome": "monitor-rpa",
       "ambiente": "oficial",
       "categoria": "Ferramenta Auxiliar",
@@ -362,6 +349,32 @@
       "ordem": 22
     },
     {
+      "nome": "chamados",
+      "ambiente": "oficial",
+      "categoria": "Módulo Transversal",
+      "subtitulo": "Módulo transversal em desenvolvimento",
+      "implantacao": 9,
+      "atualizacao": null,
+      "fidelidade": null,
+      "auditada": null,
+      "status": "Módulo transversal em desenvolvimento",
+      "leitura": "Em avanço no consolidado atual.",
+      "ordem": 23
+    },
+    {
+      "nome": "dashboard",
+      "ambiente": "oficial",
+      "categoria": "Ferramenta Auxiliar",
+      "subtitulo": "Em Produção (dashboard.oficialsport.com.br)",
+      "implantacao": null,
+      "atualizacao": null,
+      "fidelidade": null,
+      "auditada": null,
+      "status": "Em Produção (dashboard.oficialsport.com.br)",
+      "leitura": "Sem métrica de implantação no consolidado principal.",
+      "ordem": 24
+    },
+    {
       "nome": "multi-aplicacao",
       "ambiente": "oficial",
       "categoria": "Projeto Guarda-Chuva",
@@ -372,7 +385,7 @@
       "auditada": null,
       "status": "Em Desenvolvimento",
       "leitura": "Projeto guarda-chuva em acompanhamento consolidado.",
-      "ordem": 23
+      "ordem": 25
     },
     {
       "nome": "Relatórios",
@@ -405,6 +418,7 @@
   "notas": [
     "O projeto guarda-chuva multi-aplicacao é exibido separadamente e também compõe o cálculo opcional com guarda-chuva.",
     "Valores N/A indicam métrica não aplicável ao tipo do projeto ou app ainda não criada.",
-    "Automação (rpa) e multi-ai (extração SGA) foram consolidadas em 14/07/2026 nas ferramentas auxiliares (rpa/monitor-rpa e oficial-ai) — itens históricos do checklist SGA, sem entrada própria no dashboard."
+    "Automação (rpa) e multi-ai (extração SGA) foram consolidadas em 14/07/2026 nas ferramentas auxiliares (rpa/monitor-rpa e oficial-ai) — itens históricos do checklist SGA, sem entrada própria no dashboard.",
+    "chamados é um módulo transversal hospedado nas apps do ambiente (sem vhost próprio)."
   ]
 }
