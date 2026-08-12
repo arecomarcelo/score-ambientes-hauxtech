@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-12T09:37:45-03:00",
+  "updated_at": "2026-08-12T15:30:00-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -209,12 +209,12 @@
       "nome": "Estoque",
       "ambiente": "oficial",
       "categoria": "Extração SGA Finalizada",
-      "subtitulo": "1 CRÍTICA (fallback ModelBackend permitia login com senha revogada após reset",
+      "subtitulo": "Em Produção · Auditada ✅",
       "implantacao": 100,
       "atualizacao": 100,
       "fidelidade": null,
       "auditada": true,
-      "status": "1 CRÍTICA (fallback ModelBackend permitia login com senha revogada após reset",
+      "status": "Em Produção",
       "leitura": "Concluída no consolidado atual.",
       "ordem": 11
     },
@@ -222,12 +222,12 @@
       "nome": "Comex",
       "ambiente": "oficial",
       "categoria": "Extração SGA Finalizada",
-      "subtitulo": "1 CRÍTICA + 4 ALTAS + 4 MÉDIAS + 9 BAIXAS",
+      "subtitulo": "Em Produção · Auditada ✅",
       "implantacao": 100,
       "atualizacao": 100,
       "fidelidade": null,
       "auditada": true,
-      "status": "1 CRÍTICA + 4 ALTAS + 4 MÉDIAS + 9 BAIXAS",
+      "status": "Em Produção",
       "leitura": "Concluída no consolidado atual.",
       "ordem": 12
     },
@@ -248,12 +248,12 @@
       "nome": "Financeiro",
       "ambiente": "oficial",
       "categoria": "Extração SGA Finalizada",
-      "subtitulo": "0 CRÍTICA (2ª rodada) · 0 ALTA · 0 MÉDIA · 1 BAIXA (inherited/aceita)",
+      "subtitulo": "Em Produção · Auditada ✅",
       "implantacao": 100,
       "atualizacao": 100,
       "fidelidade": null,
       "auditada": true,
-      "status": "0 CRÍTICA (2ª rodada) · 0 ALTA · 0 MÉDIA · 1 BAIXA (inherited/aceita)",
+      "status": "Em Produção",
       "leitura": "Concluída no consolidado atual.",
       "ordem": 14
     },
@@ -261,7 +261,7 @@
       "nome": "Inventário",
       "ambiente": "oficial",
       "categoria": "Extração SGA",
-      "subtitulo": "Em Desenvolvimento",
+      "subtitulo": "Em Desenvolvimento · Auditada ✅",
       "implantacao": 91,
       "atualizacao": 100,
       "fidelidade": null,
@@ -274,12 +274,12 @@
       "nome": "RH",
       "ambiente": "oficial",
       "categoria": "Extração SGA Finalizada",
-      "subtitulo": "3ª rodada (1ª e 2ª via 05-verificar-fidelidade-legado em 31/07 e 06/08/2026, ambas sem CRÍTICA aberta ao final). Escopo desta rodada: módulos nunca auditados (SP04-SP07",
+      "subtitulo": "Em Produção · Auditada ✅",
       "implantacao": 100,
       "atualizacao": 100,
       "fidelidade": null,
       "auditada": true,
-      "status": "3ª rodada (1ª e 2ª via 05-verificar-fidelidade-legado em 31/07 e 06/08/2026, ambas sem CRÍTICA aberta ao final). Escopo desta rodada: módulos nunca auditados (SP04-SP07",
+      "status": "Em Produção",
       "leitura": "Concluída no consolidado atual.",
       "ordem": 16
     },
@@ -375,32 +375,6 @@
       "ordem": 25
     },
     {
-      "nome": "Cadastros / 💳 Cobrança",
-      "ambiente": "oficial",
-      "categoria": "Aplicação",
-      "subtitulo": "N/A (apps ainda não criadas)",
-      "implantacao": null,
-      "atualizacao": null,
-      "fidelidade": null,
-      "auditada": null,
-      "status": "N/A (apps ainda não criadas)",
-      "leitura": "Sem métrica de implantação no consolidado principal.",
-      "ordem": 999
-    },
-    {
-      "nome": "monitor-rpa / ⚙️ rpa",
-      "ambiente": "oficial",
-      "categoria": "Aplicação",
-      "subtitulo": "AppRegistrada.slug corrigido (monitor_rpa → rpa, batia com o schema real); dois stacks Swarm separados (web + celery/beat, repositório rpa) migrados juntos para o mesmo role monitor_rpa_user",
-      "implantacao": null,
-      "atualizacao": 100,
-      "fidelidade": null,
-      "auditada": null,
-      "status": "AppRegistrada.slug corrigido (monitor_rpa → rpa, batia com o schema real); dois stacks Swarm separados (web + celery/beat, repositório rpa) migrados juntos para o mesmo role monitor_rpa_user",
-      "leitura": "Sem métrica de implantação no consolidado principal.",
-      "ordem": 999
-    },
-    {
       "nome": "oficial-ai",
       "ambiente": "oficial",
       "categoria": "Ferramenta Auxiliar",
@@ -447,11 +421,11 @@
     },
     {
       "titulo": "Oficial: fidelidade depende de auditorias retroativas.",
-      "texto": "Administração e Financeiro já estão implantadas, mas ainda dependem da auditoria formal de fidelidade contra o legado."
+      "texto": "Administração é a única extração SGA 100% ainda sem auditoria formal de fidelidade contra o legado."
     },
     {
       "titulo": "Oficial SGA ainda tem apps não iniciadas.",
-      "texto": "Inventário, Cadastros e Cobrança seguem sem implantação no consolidado atual do núcleo SGA."
+      "texto": "Cadastros e Cobrança seguem sem implantação no consolidado atual do núcleo SGA."
     }
   ],
   "notas": [
