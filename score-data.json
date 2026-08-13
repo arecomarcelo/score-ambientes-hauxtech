@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-12T17:37:10-03:00",
+  "updated_at": "2026-08-13T08:06:05-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -24,14 +24,14 @@
       "label": "Oficial",
       "descricao": "Aplicações do ecossistema Oficial, incluindo extrações do legado SGA, ferramentas auxiliares e auditoria de fidelidade funcional.",
       "implantacao": {
-        "percentual": 81,
-        "atual": 176,
+        "percentual": 82,
+        "atual": 177,
         "total": 216,
         "unidade": "apps + ferramentas"
       },
       "implantacao_sga": {
-        "percentual": 70,
-        "atual": 47,
+        "percentual": 72,
+        "atual": 48,
         "total": 67,
         "unidade": "itens"
       },
@@ -42,8 +42,8 @@
         "unidade": "etapas"
       },
       "implantacao_com_guarda_chuva": {
-        "percentual": 80,
-        "atual": 186,
+        "percentual": 81,
+        "atual": 187,
         "total": 232,
         "unidade": "apps + ferramentas + guarda-chuva"
       },
@@ -287,12 +287,12 @@
       "nome": "Cadastros",
       "ambiente": "oficial",
       "categoria": "Extração SGA",
-      "subtitulo": "Não Iniciada",
-      "implantacao": 73,
+      "subtitulo": "Em Desenvolvimento — 1º deploy em produção realizado (12/08/2026)",
+      "implantacao": 82,
       "atualizacao": null,
       "fidelidade": null,
       "auditada": null,
-      "status": "Não Iniciada",
+      "status": "Em Desenvolvimento — 1º deploy em produção realizado (12/08/2026)",
       "leitura": "Em avanço no consolidado atual.",
       "ordem": 17
     },
