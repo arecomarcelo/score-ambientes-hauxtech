@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-14T08:09:51-03:00",
+  "updated_at": "2026-08-14T14:43:44-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -304,7 +304,7 @@
       "implantacao": 100,
       "atualizacao": 0,
       "fidelidade": null,
-      "auditada": null,
+      "auditada": true,
       "status": "Em Produção",
       "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
       "ordem": 19
