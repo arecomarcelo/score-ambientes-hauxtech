@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-14T14:43:44-03:00",
+  "updated_at": "2026-08-14T16:26:48-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -48,8 +48,8 @@
         "unidade": "apps + ferramentas + guarda-chuva"
       },
       "atualizacao": {
-        "percentual": 78,
-        "atual": 7,
+        "percentual": 89,
+        "atual": 8,
         "total": 9,
         "unidade": "apps aplicáveis"
       },
@@ -302,11 +302,11 @@
       "categoria": "Ferramenta Auxiliar",
       "subtitulo": "Em Produção",
       "implantacao": 100,
-      "atualizacao": 0,
+      "atualizacao": 100,
       "fidelidade": null,
       "auditada": true,
       "status": "Em Produção",
-      "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
+      "leitura": "Concluída no consolidado atual.",
       "ordem": 19
     },
     {
