@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-14T16:28:20-03:00",
+  "updated_at": "2026-08-17T13:41:29-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -48,9 +48,9 @@
         "unidade": "apps + ferramentas + guarda-chuva"
       },
       "atualizacao": {
-        "percentual": 89,
-        "atual": 8,
-        "total": 9,
+        "percentual": 90,
+        "atual": 9,
+        "total": 10,
         "unidade": "apps aplicáveis"
       },
       "fidelidade": {
@@ -260,14 +260,14 @@
     {
       "nome": "Inventário",
       "ambiente": "oficial",
-      "categoria": "Extração SGA",
-      "subtitulo": "Em Desenvolvimento · Auditada ✅",
-      "implantacao": 91,
+      "categoria": "Extração SGA Finalizada",
+      "subtitulo": "Em Produção · Auditada ✅",
+      "implantacao": 100,
       "atualizacao": 100,
       "fidelidade": null,
       "auditada": true,
-      "status": "Em Desenvolvimento",
-      "leitura": "Em avanço no consolidado atual.",
+      "status": "Em Produção",
+      "leitura": "Concluída no consolidado atual.",
       "ordem": 15
     },
     {
@@ -286,10 +286,10 @@
     {
       "nome": "Cadastros",
       "ambiente": "oficial",
-      "categoria": "Extração SGA",
+      "categoria": "Extração SGA Finalizada",
       "subtitulo": "Em Produção · Auditada ✅",
       "implantacao": 100,
-      "atualizacao": null,
+      "atualizacao": 100,
       "fidelidade": null,
       "auditada": true,
       "status": "Em Produção",
@@ -369,7 +369,7 @@
       "implantacao": null,
       "atualizacao": null,
       "fidelidade": null,
-      "auditada": null,
+      "auditada": true,
       "status": "Em Produção (dashboard.oficialsport.com.br)",
       "leitura": "Sem métrica de implantação no consolidado principal.",
       "ordem": 24
