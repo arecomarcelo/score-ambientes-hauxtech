@@ -63,7 +63,7 @@
   },
   "apps": [
     {
-      "nome": "InfraFlow",
+      "nome": "CoreFlow Infra",
       "ambiente": "hauxtech",
       "categoria": "Aplicação Finalizada",
       "subtitulo": "Em Produção",
