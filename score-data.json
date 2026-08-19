@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-19T11:12:24-03:00",
+  "updated_at": "2026-08-19T11:15:35-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -49,9 +49,9 @@
       },
       "atualizacao": {
         "percentual": 100,
-        "atual": 11,
-        "total": 11,
-        "unidade": "apps aplicáveis"
+        "atual": 15,
+        "total": 15,
+        "unidade": "apps/entidades aplicáveis"
       },
       "fidelidade": {
         "percentual": 100,
@@ -352,12 +352,12 @@
       "nome": "chamados",
       "ambiente": "oficial",
       "categoria": "Módulo Transversal",
-      "subtitulo": "Implementado em todas as apps consumidoras",
+      "subtitulo": "Em Produção",
       "implantacao": 100,
-      "atualizacao": null,
+      "atualizacao": 100,
       "fidelidade": null,
       "auditada": null,
-      "status": "Implementado em todas as apps consumidoras",
+      "status": "Em Produção",
       "leitura": "Concluída no consolidado atual.",
       "ordem": 23
     },
@@ -367,7 +367,7 @@
       "categoria": "Ferramenta Auxiliar",
       "subtitulo": "Em Produção",
       "implantacao": 100,
-      "atualizacao": null,
+      "atualizacao": 100,
       "fidelidade": null,
       "auditada": true,
       "status": "Em Produção",
@@ -378,12 +378,12 @@
       "nome": "multi-aplicacao",
       "ambiente": "oficial",
       "categoria": "Ferramenta Auxiliar",
-      "subtitulo": "Finalizado — núcleo de extração SGA concluído (17/08/2026)",
+      "subtitulo": "Em Produção",
       "implantacao": 100,
-      "atualizacao": null,
+      "atualizacao": 100,
       "fidelidade": null,
       "auditada": null,
-      "status": "Finalizado — núcleo de extração SGA concluído (17/08/2026)",
+      "status": "Em Produção",
       "leitura": "Concluída no consolidado atual.",
       "ordem": 25
     },
@@ -393,7 +393,7 @@
       "categoria": "Ferramenta Auxiliar",
       "subtitulo": "Em Produção",
       "implantacao": 100,
-      "atualizacao": null,
+      "atualizacao": 100,
       "fidelidade": null,
       "auditada": null,
       "status": "Em Produção",
