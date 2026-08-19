@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-18T17:17:45-03:00",
+  "updated_at": "2026-08-18T22:18:51-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
       "label": "HauxTech",
       "descricao": "Aplicações próprias do ecossistema HauxTech, com produtos em produção e módulos em desenvolvimento. Fidelidade ao legado não se aplica.",
       "implantacao": {
-        "percentual": 66,
-        "atual": 263,
+        "percentual": 67,
+        "atual": 266,
         "total": 399,
         "unidade": "etapas"
       },
@@ -145,7 +145,7 @@
       "ambiente": "hauxtech",
       "categoria": "Aplicação",
       "subtitulo": "Em Desenvolvimento",
-      "implantacao": 90,
+      "implantacao": 98,
       "atualizacao": 100,
       "fidelidade": null,
       "auditada": null,
