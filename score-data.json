@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-19T11:15:35-03:00",
+  "updated_at": "2026-08-19T11:23:37-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -24,15 +24,15 @@
       "label": "Oficial",
       "descricao": "Aplicações do ecossistema Oficial, incluindo extrações do legado SGA, ferramentas auxiliares e auditoria de fidelidade funcional.",
       "implantacao": {
-        "percentual": 92,
-        "atual": 178,
-        "total": 194,
+        "percentual": 100,
+        "atual": 226,
+        "total": 226,
         "unidade": "apps + ferramentas"
       },
       "implantacao_sga": {
-        "percentual": 64,
-        "atual": 29,
-        "total": 45,
+        "percentual": 100,
+        "atual": 77,
+        "total": 77,
         "unidade": "itens"
       },
       "implantacao_ferramentas": {
@@ -42,9 +42,9 @@
         "unidade": "etapas"
       },
       "implantacao_com_guarda_chuva": {
-        "percentual": 92,
-        "atual": 178,
-        "total": 194,
+        "percentual": 100,
+        "atual": 226,
+        "total": 226,
         "unidade": "apps + ferramentas + guarda-chuva"
       },
       "atualizacao": {
@@ -212,10 +212,10 @@
       "subtitulo": "Em Produção",
       "implantacao": 100,
       "atualizacao": 100,
-      "fidelidade": null,
+      "fidelidade": 100,
       "auditada": true,
       "status": "Em Produção",
-      "leitura": "Concluída no consolidado atual.",
+      "leitura": "Auditada e sem pendência crítica aberta.",
       "ordem": 11
     },
     {
@@ -225,10 +225,10 @@
       "subtitulo": "Em Produção",
       "implantacao": 100,
       "atualizacao": 100,
-      "fidelidade": null,
+      "fidelidade": 100,
       "auditada": true,
       "status": "Em Produção",
-      "leitura": "Concluída no consolidado atual.",
+      "leitura": "Auditada e sem pendência crítica aberta.",
       "ordem": 12
     },
     {
@@ -238,10 +238,10 @@
       "subtitulo": "Em Produção",
       "implantacao": 100,
       "atualizacao": 100,
-      "fidelidade": null,
+      "fidelidade": 100,
       "auditada": true,
       "status": "Em Produção",
-      "leitura": "Concluída no consolidado atual.",
+      "leitura": "Auditada e sem pendência crítica aberta.",
       "ordem": 13
     },
     {
@@ -251,10 +251,10 @@
       "subtitulo": "Em Produção",
       "implantacao": 100,
       "atualizacao": 100,
-      "fidelidade": null,
+      "fidelidade": 100,
       "auditada": true,
       "status": "Em Produção",
-      "leitura": "Concluída no consolidado atual.",
+      "leitura": "Auditada e sem pendência crítica aberta.",
       "ordem": 14
     },
     {
@@ -264,10 +264,10 @@
       "subtitulo": "Em Produção",
       "implantacao": 100,
       "atualizacao": 100,
-      "fidelidade": null,
+      "fidelidade": 100,
       "auditada": true,
       "status": "Em Produção",
-      "leitura": "Concluída no consolidado atual.",
+      "leitura": "Auditada e sem pendência crítica aberta.",
       "ordem": 15
     },
     {
@@ -277,10 +277,10 @@
       "subtitulo": "Em Produção",
       "implantacao": 100,
       "atualizacao": 100,
-      "fidelidade": null,
+      "fidelidade": 100,
       "auditada": true,
       "status": "Em Produção",
-      "leitura": "Concluída no consolidado atual.",
+      "leitura": "Auditada e sem pendência crítica aberta.",
       "ordem": 16
     },
     {
@@ -290,10 +290,10 @@
       "subtitulo": "Em Produção",
       "implantacao": 100,
       "atualizacao": 100,
-      "fidelidade": null,
+      "fidelidade": 100,
       "auditada": true,
       "status": "Em Produção",
-      "leitura": "Concluída no consolidado atual.",
+      "leitura": "Auditada e sem pendência crítica aberta.",
       "ordem": 17
     },
     {
@@ -303,10 +303,10 @@
       "subtitulo": "Em Produção",
       "implantacao": 100,
       "atualizacao": 100,
-      "fidelidade": null,
+      "fidelidade": 100,
       "auditada": true,
       "status": "Em Produção",
-      "leitura": "Concluída no consolidado atual.",
+      "leitura": "Auditada e sem pendência crítica aberta.",
       "ordem": 19
     },
     {
@@ -342,10 +342,10 @@
       "subtitulo": "Em Produção",
       "implantacao": 100,
       "atualizacao": 100,
-      "fidelidade": null,
+      "fidelidade": 100,
       "auditada": true,
       "status": "Em Produção",
-      "leitura": "Concluída no consolidado atual.",
+      "leitura": "Auditada e sem pendência crítica aberta.",
       "ordem": 22
     },
     {
@@ -368,10 +368,10 @@
       "subtitulo": "Em Produção",
       "implantacao": 100,
       "atualizacao": 100,
-      "fidelidade": null,
+      "fidelidade": 100,
       "auditada": true,
       "status": "Em Produção",
-      "leitura": "Concluída no consolidado atual.",
+      "leitura": "Auditada e sem pendência crítica aberta.",
       "ordem": 24
     },
     {
