@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-18T23:07:40-03:00",
+  "updated_at": "2026-08-19T11:02:57-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -24,8 +24,8 @@
       "label": "Oficial",
       "descricao": "Aplicações do ecossistema Oficial, incluindo extrações do legado SGA, ferramentas auxiliares e auditoria de fidelidade funcional.",
       "implantacao": {
-        "percentual": 81,
-        "atual": 158,
+        "percentual": 92,
+        "atual": 178,
         "total": 194,
         "unidade": "apps + ferramentas"
       },
@@ -36,14 +36,14 @@
         "unidade": "itens"
       },
       "implantacao_ferramentas": {
-        "percentual": 87,
-        "atual": 129,
+        "percentual": 100,
+        "atual": 149,
         "total": 149,
         "unidade": "etapas"
       },
       "implantacao_com_guarda_chuva": {
-        "percentual": 83,
-        "atual": 173,
+        "percentual": 92,
+        "atual": 193,
         "total": 209,
         "unidade": "apps + ferramentas + guarda-chuva"
       },
@@ -352,13 +352,13 @@
       "nome": "chamados",
       "ambiente": "oficial",
       "categoria": "Módulo Transversal",
-      "subtitulo": "Módulo transversal em desenvolvimento",
-      "implantacao": 9,
+      "subtitulo": "Implementado em todas as apps consumidoras",
+      "implantacao": 100,
       "atualizacao": null,
       "fidelidade": null,
       "auditada": null,
-      "status": "Módulo transversal em desenvolvimento",
-      "leitura": "Em avanço no consolidado atual.",
+      "status": "Implementado em todas as apps consumidoras",
+      "leitura": "Concluída no consolidado atual.",
       "ordem": 23
     },
     {
@@ -366,12 +366,12 @@
       "ambiente": "oficial",
       "categoria": "Ferramenta Auxiliar",
       "subtitulo": "Em Produção (dashboard.oficialsport.com.br)",
-      "implantacao": null,
+      "implantacao": 100,
       "atualizacao": null,
       "fidelidade": null,
       "auditada": true,
       "status": "Em Produção (dashboard.oficialsport.com.br)",
-      "leitura": "Sem métrica de implantação no consolidado principal.",
+      "leitura": "Concluída no consolidado atual.",
       "ordem": 24
     },
     {
