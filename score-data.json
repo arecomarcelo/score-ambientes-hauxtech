@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-19T11:10:17-03:00",
+  "updated_at": "2026-08-19T11:12:24-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -49,8 +49,8 @@
       },
       "atualizacao": {
         "percentual": 100,
-        "atual": 10,
-        "total": 10,
+        "atual": 11,
+        "total": 11,
         "unidade": "apps aplicáveis"
       },
       "fidelidade": {
@@ -315,7 +315,7 @@
       "categoria": "Ferramenta Auxiliar",
       "subtitulo": "Em Produção",
       "implantacao": 100,
-      "atualizacao": null,
+      "atualizacao": 100,
       "fidelidade": null,
       "auditada": null,
       "status": "Em Produção",
