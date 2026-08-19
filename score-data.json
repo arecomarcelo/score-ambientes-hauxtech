@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-18T22:26:07-03:00",
+  "updated_at": "2026-08-18T23:00:00-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -8,7 +8,7 @@
       "descricao": "Aplicações próprias do ecossistema HauxTech, com produtos em produção e módulos em desenvolvimento. Fidelidade ao legado não se aplica.",
       "implantacao": {
         "percentual": 67,
-        "atual": 266,
+        "atual": 267,
         "total": 399,
         "unidade": "etapas"
       },
@@ -143,13 +143,13 @@
     {
       "nome": "CoreFlow Stock",
       "ambiente": "hauxtech",
-      "categoria": "Aplicação",
-      "subtitulo": "Em Desenvolvimento",
-      "implantacao": 98,
+      "categoria": "Aplicação Finalizada",
+      "subtitulo": "0 CRÍTICA · 4 ALTAS (3 corrigidas",
+      "implantacao": 100,
       "atualizacao": 100,
       "fidelidade": null,
-      "auditada": null,
-      "status": "Em Desenvolvimento",
+      "auditada": true,
+      "status": "0 CRÍTICA · 4 ALTAS (3 corrigidas",
       "leitura": "Migrada para o novo padrão visual hauxtech.",
       "ordem": 8
     },
