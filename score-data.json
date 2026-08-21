@@ -1,15 +1,15 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-21T10:57:40-03:00",
+  "updated_at": "2026-08-21T14:14:02-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
       "label": "HauxTech",
       "descricao": "Aplicações próprias do ecossistema HauxTech, com produtos em produção e módulos em desenvolvimento. Fidelidade ao legado não se aplica.",
       "implantacao": {
-        "percentual": 68,
-        "atual": 271,
-        "total": 399,
+        "percentual": 71,
+        "atual": 295,
+        "total": 415,
         "unidade": "etapas"
       },
       "atualizacao": {
@@ -184,7 +184,7 @@
       "ambiente": "hauxtech",
       "categoria": "Aplicação",
       "subtitulo": "Em Desenvolvimento",
-      "implantacao": 58,
+      "implantacao": 74,
       "atualizacao": 100,
       "fidelidade": null,
       "auditada": null,
@@ -392,7 +392,7 @@
       "ambiente": "oficial",
       "categoria": "Extração SGA Finalizada",
       "subtitulo": "Em Produção · Auditada ✅",
-      "implantacao": 58,
+      "implantacao": 74,
       "atualizacao": null,
       "fidelidade": 100,
       "auditada": true,
