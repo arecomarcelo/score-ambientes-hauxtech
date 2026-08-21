@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-08-21T09:33:53-03:00",
+  "updated_at": "2026-08-21T10:57:40-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
       "label": "HauxTech",
       "descricao": "Aplicações próprias do ecossistema HauxTech, com produtos em produção e módulos em desenvolvimento. Fidelidade ao legado não se aplica.",
       "implantacao": {
-        "percentual": 67,
-        "atual": 267,
+        "percentual": 68,
+        "atual": 271,
         "total": 399,
         "unidade": "etapas"
       },
@@ -184,7 +184,7 @@
       "ambiente": "hauxtech",
       "categoria": "Aplicação",
       "subtitulo": "Em Desenvolvimento",
-      "implantacao": 53,
+      "implantacao": 58,
       "atualizacao": 100,
       "fidelidade": null,
       "auditada": null,
@@ -386,6 +386,19 @@
       "status": "Em Produção",
       "leitura": "Concluída no consolidado atual.",
       "ordem": 25
+    },
+    {
+      "nome": "CoreFlow People — domínio dp",
+      "ambiente": "oficial",
+      "categoria": "Extração SGA Finalizada",
+      "subtitulo": "Em Produção · Auditada ✅",
+      "implantacao": 58,
+      "atualizacao": null,
+      "fidelidade": 100,
+      "auditada": true,
+      "status": "Em Produção",
+      "leitura": "Auditada e sem pendência crítica aberta.",
+      "ordem": 999
     },
     {
       "nome": "relatorios",
