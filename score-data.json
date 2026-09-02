@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-02T15:52:01-03:00",
+  "updated_at": "2026-09-02T16:15:34-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -66,12 +66,12 @@
       "nome": "monitor-vps",
       "ambiente": "hauxtech",
       "categoria": "Aplicação Finalizada",
-      "subtitulo": "Sem Legado (agente de scripts Python via cron, sem UI/tela de login)",
+      "subtitulo": "Em Produção",
       "implantacao": 100,
       "atualizacao": null,
       "fidelidade": null,
       "auditada": true,
-      "status": "Sem Legado (agente de scripts Python via cron, sem UI/tela de login)",
+      "status": "Em Produção",
       "leitura": "Métrica visual/fidelidade não aplicável ao tipo de projeto.",
       "ordem": 2
     },
@@ -131,12 +131,12 @@
       "nome": "CoreFlow Stock",
       "ambiente": "hauxtech",
       "categoria": "Aplicação Finalizada",
-      "subtitulo": "0 CRÍTICA · 4 ALTAS (3 corrigidas",
+      "subtitulo": "Em Produção",
       "implantacao": 100,
       "atualizacao": 100,
       "fidelidade": null,
       "auditada": true,
-      "status": "0 CRÍTICA · 4 ALTAS (3 corrigidas",
+      "status": "Em Produção",
       "leitura": "Migrada para o novo padrão visual hauxtech.",
       "ordem": 8
     },
@@ -196,12 +196,12 @@
       "nome": "CoreFlow Time",
       "ambiente": "hauxtech",
       "categoria": "Aplicação Finalizada",
-      "subtitulo": "Sem Legado (confirmado com o usuário",
+      "subtitulo": "Em Produção",
       "implantacao": 100,
       "atualizacao": 100,
       "fidelidade": null,
       "auditada": true,
-      "status": "Sem Legado (confirmado com o usuário",
+      "status": "Em Produção",
       "leitura": "Concluída no consolidado atual.",
       "ordem": 999
     },
