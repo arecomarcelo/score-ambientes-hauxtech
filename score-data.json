@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-02T15:11:51-03:00",
+  "updated_at": "2026-09-02T15:52:01-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -196,12 +196,12 @@
       "nome": "CoreFlow Time",
       "ambiente": "hauxtech",
       "categoria": "Aplicação Finalizada",
-      "subtitulo": "Em Produção",
+      "subtitulo": "Sem Legado (confirmado com o usuário",
       "implantacao": 100,
       "atualizacao": 100,
       "fidelidade": null,
-      "auditada": null,
-      "status": "Em Produção",
+      "auditada": true,
+      "status": "Sem Legado (confirmado com o usuário",
       "leitura": "Concluída no consolidado atual.",
       "ordem": 999
     },
