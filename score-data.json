@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-02T16:15:34-03:00",
+  "updated_at": "2026-09-02T16:24:16-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -386,19 +386,6 @@
       "status": "Em Produção",
       "leitura": "Concluída no consolidado atual.",
       "ordem": 25
-    },
-    {
-      "nome": "CoreFlow People — domínio dp",
-      "ambiente": "oficial",
-      "categoria": "Extração SGA Finalizada",
-      "subtitulo": "Em Produção",
-      "implantacao": null,
-      "atualizacao": null,
-      "fidelidade": null,
-      "auditada": null,
-      "status": "Em Produção",
-      "leitura": "Sem métrica de implantação no consolidado principal.",
-      "ordem": 999
     },
     {
       "nome": "relatorios",
