@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-03T13:51:16-03:00",
+  "updated_at": "2026-09-03T13:57:39-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -148,7 +148,7 @@
       "implantacao": 100,
       "atualizacao": 100,
       "fidelidade": null,
-      "auditada": null,
+      "auditada": true,
       "status": "Em Produção",
       "leitura": "Origem/piloto do novo padrão visual.",
       "ordem": 9
