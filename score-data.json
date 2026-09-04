@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-04T13:50:48-03:00",
+  "updated_at": "2026-09-04T14:00:28-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -13,8 +13,8 @@
         "unidade": "etapas"
       },
       "atualizacao": {
-        "percentual": 75,
-        "atual": 6,
+        "percentual": 88,
+        "atual": 7,
         "total": 8,
         "unidade": "apps aplicáveis"
       },
@@ -120,11 +120,11 @@
       "categoria": "Aplicação",
       "subtitulo": "Em Desenvolvimento",
       "implantacao": 23,
-      "atualizacao": 0,
+      "atualizacao": 100,
       "fidelidade": null,
       "auditada": null,
       "status": "Em Desenvolvimento",
-      "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
+      "leitura": "Em avanço no consolidado atual.",
       "ordem": 7
     },
     {
