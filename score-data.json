@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-04T09:54:36-03:00",
+  "updated_at": "2026-09-04T10:38:55-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -105,13 +105,13 @@
       "nome": "CoreFlow ERP",
       "ambiente": "hauxtech",
       "categoria": "Aplicação",
-      "subtitulo": "Em Desenvolvimento",
-      "implantacao": 92,
+      "subtitulo": "Em Produção",
+      "implantacao": 100,
       "atualizacao": 100,
       "fidelidade": null,
       "auditada": null,
-      "status": "Em Desenvolvimento",
-      "leitura": "Em avanço no consolidado atual.",
+      "status": "Em Produção",
+      "leitura": "Concluída no consolidado atual.",
       "ordem": 6
     },
     {
