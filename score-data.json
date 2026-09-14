@@ -1,15 +1,15 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-10T17:41:50-03:00",
+  "updated_at": "2026-09-14T09:09:15-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
       "label": "HauxTech",
       "descricao": "Aplicações próprias do ecossistema HauxTech, com produtos em produção e módulos em desenvolvimento. Fidelidade ao legado não se aplica.",
       "implantacao": {
-        "percentual": 78,
-        "atual": 324,
-        "total": 415,
+        "percentual": 99,
+        "atual": 412,
+        "total": 416,
         "unidade": "etapas"
       },
       "atualizacao": {
@@ -94,37 +94,37 @@
       "categoria": "Aplicação",
       "subtitulo": "Em Desenvolvimento",
       "implantacao": 87,
-      "atualizacao": 100,
+      "atualizacao": 0,
       "fidelidade": null,
       "auditada": null,
       "status": "Em Desenvolvimento",
-      "leitura": "Em avanço no consolidado atual.",
+      "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
       "ordem": 4
     },
     {
       "nome": "CoreFlow ERP",
       "ambiente": "hauxtech",
-      "categoria": "Aplicação",
+      "categoria": "Aplicação Finalizada",
       "subtitulo": "Em Produção",
       "implantacao": 100,
-      "atualizacao": 100,
+      "atualizacao": 0,
       "fidelidade": null,
       "auditada": true,
       "status": "Em Produção",
-      "leitura": "Concluída no consolidado atual.",
+      "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
       "ordem": 6
     },
     {
       "nome": "CoreFlow CRM",
       "ambiente": "hauxtech",
-      "categoria": "Aplicação",
+      "categoria": "Aplicação Finalizada",
       "subtitulo": "Em Produção",
       "implantacao": 100,
-      "atualizacao": 100,
+      "atualizacao": 0,
       "fidelidade": null,
       "auditada": true,
       "status": "Em Produção",
-      "leitura": "Concluída no consolidado atual.",
+      "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
       "ordem": 7
     },
     {
@@ -143,10 +143,10 @@
     {
       "nome": "CoreFlow Planner AI",
       "ambiente": "hauxtech",
-      "categoria": "Aplicação",
+      "categoria": "Aplicação Finalizada",
       "subtitulo": "Em Produção",
       "implantacao": 100,
-      "atualizacao": 100,
+      "atualizacao": null,
       "fidelidade": null,
       "auditada": true,
       "status": "Em Produção",
@@ -172,24 +172,24 @@
       "categoria": "Aplicação Finalizada",
       "subtitulo": "Em Produção",
       "implantacao": 100,
-      "atualizacao": 0,
+      "atualizacao": 100,
       "fidelidade": null,
       "auditada": null,
       "status": "Em Produção",
-      "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
+      "leitura": "Concluída no consolidado atual.",
       "ordem": 999
     },
     {
       "nome": "CoreFlow People",
       "ambiente": "hauxtech",
-      "categoria": "Aplicação",
+      "categoria": "Aplicação Finalizada",
       "subtitulo": "Em Produção",
       "implantacao": 100,
-      "atualizacao": 100,
+      "atualizacao": 0,
       "fidelidade": null,
       "auditada": true,
       "status": "Em Produção",
-      "leitura": "Concluída no consolidado atual.",
+      "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
       "ordem": 999
     },
     {
@@ -198,11 +198,11 @@
       "categoria": "Aplicação Finalizada",
       "subtitulo": "Em Produção",
       "implantacao": 100,
-      "atualizacao": 100,
+      "atualizacao": 0,
       "fidelidade": null,
       "auditada": true,
       "status": "Em Produção",
-      "leitura": "Concluída no consolidado atual.",
+      "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
       "ordem": 999
     },
     {
