@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-14T11:05:06-03:00",
+  "updated_at": "2026-09-14T11:14:21-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -73,7 +73,8 @@
       "auditada": true,
       "status": "Em Produção",
       "leitura": "Métrica visual/fidelidade não aplicável ao tipo de projeto.",
-      "ordem": 2
+      "ordem": 2,
+      "api": null
     },
     {
       "nome": "coreflow-crm-docs",
@@ -86,7 +87,8 @@
       "auditada": null,
       "status": "Em Produção (portal docs)",
       "leitura": "Métrica visual/fidelidade não aplicável ao tipo de projeto.",
-      "ordem": 3
+      "ordem": 3,
+      "api": null
     },
     {
       "nome": "StreamKeeper",
@@ -99,7 +101,8 @@
       "auditada": null,
       "status": "Em Desenvolvimento",
       "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
-      "ordem": 4
+      "ordem": 4,
+      "api": false
     },
     {
       "nome": "CoreFlow ERP",
@@ -112,7 +115,8 @@
       "auditada": true,
       "status": "Em Produção",
       "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
-      "ordem": 6
+      "ordem": 6,
+      "api": false
     },
     {
       "nome": "CoreFlow CRM",
@@ -125,7 +129,8 @@
       "auditada": true,
       "status": "Em Produção",
       "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
-      "ordem": 7
+      "ordem": 7,
+      "api": false
     },
     {
       "nome": "CoreFlow Stock",
@@ -138,7 +143,8 @@
       "auditada": true,
       "status": "Em Produção",
       "leitura": "Migrada para o novo padrão visual hauxtech.",
-      "ordem": 8
+      "ordem": 8,
+      "api": true
     },
     {
       "nome": "CoreFlow Planner AI",
@@ -151,7 +157,8 @@
       "auditada": true,
       "status": "Em Produção",
       "leitura": "Origem/piloto do novo padrão visual.",
-      "ordem": 9
+      "ordem": 9,
+      "api": true
     },
     {
       "nome": "portal_hauxtech",
@@ -164,7 +171,8 @@
       "auditada": null,
       "status": "Em Produção (landpage)",
       "leitura": "Sem métrica de implantação no consolidado principal.",
-      "ordem": 10
+      "ordem": 10,
+      "api": null
     },
     {
       "nome": "CoreFlow Infra",
@@ -177,7 +185,8 @@
       "auditada": null,
       "status": "Em Produção",
       "leitura": "Concluída no consolidado atual.",
-      "ordem": 999
+      "ordem": 999,
+      "api": true
     },
     {
       "nome": "CoreFlow People",
@@ -190,7 +199,8 @@
       "auditada": true,
       "status": "Em Produção",
       "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
-      "ordem": 999
+      "ordem": 999,
+      "api": false
     },
     {
       "nome": "CoreFlow Time",
@@ -203,7 +213,8 @@
       "auditada": true,
       "status": "Em Produção",
       "leitura": "Em produção/desenvolvimento, com atualização visual pendente.",
-      "ordem": 999
+      "ordem": 999,
+      "api": false
     },
     {
       "nome": "Estoque",
@@ -216,7 +227,8 @@
       "auditada": true,
       "status": "Em Produção",
       "leitura": "Auditada e sem pendência crítica aberta.",
-      "ordem": 11
+      "ordem": 11,
+      "api": null
     },
     {
       "nome": "Comex",
@@ -229,7 +241,8 @@
       "auditada": true,
       "status": "Em Produção",
       "leitura": "Auditada e sem pendência crítica aberta.",
-      "ordem": 12
+      "ordem": 12,
+      "api": null
     },
     {
       "nome": "Administração",
@@ -242,7 +255,8 @@
       "auditada": true,
       "status": "Em Produção",
       "leitura": "Auditada e sem pendência crítica aberta.",
-      "ordem": 13
+      "ordem": 13,
+      "api": null
     },
     {
       "nome": "Financeiro",
@@ -255,7 +269,8 @@
       "auditada": true,
       "status": "Em Produção",
       "leitura": "Auditada e sem pendência crítica aberta.",
-      "ordem": 14
+      "ordem": 14,
+      "api": null
     },
     {
       "nome": "Inventário",
@@ -268,7 +283,8 @@
       "auditada": true,
       "status": "Em Produção",
       "leitura": "Auditada e sem pendência crítica aberta.",
-      "ordem": 15
+      "ordem": 15,
+      "api": null
     },
     {
       "nome": "RH",
@@ -281,7 +297,8 @@
       "auditada": true,
       "status": "Em Produção",
       "leitura": "Auditada e sem pendência crítica aberta.",
-      "ordem": 16
+      "ordem": 16,
+      "api": null
     },
     {
       "nome": "Cadastros",
@@ -294,7 +311,8 @@
       "auditada": true,
       "status": "Em Produção",
       "leitura": "Auditada e sem pendência crítica aberta.",
-      "ordem": 17
+      "ordem": 17,
+      "api": null
     },
     {
       "nome": "monitor-rpa",
@@ -307,7 +325,8 @@
       "auditada": true,
       "status": "Em Produção",
       "leitura": "Auditada e sem pendência crítica aberta.",
-      "ordem": 19
+      "ordem": 19,
+      "api": null
     },
     {
       "nome": "rpa",
@@ -320,7 +339,8 @@
       "auditada": null,
       "status": "Em Produção",
       "leitura": "Concluída no consolidado atual.",
-      "ordem": 20
+      "ordem": 20,
+      "api": null
     },
     {
       "nome": "oficial-ai",
@@ -333,7 +353,8 @@
       "auditada": true,
       "status": "Em Produção",
       "leitura": "Auditada e sem pendência crítica aberta.",
-      "ordem": 21
+      "ordem": 21,
+      "api": null
     },
     {
       "nome": "gestor-imagem",
@@ -346,7 +367,8 @@
       "auditada": true,
       "status": "Em Produção",
       "leitura": "Auditada e sem pendência crítica aberta.",
-      "ordem": 22
+      "ordem": 22,
+      "api": null
     },
     {
       "nome": "chamados",
@@ -359,7 +381,8 @@
       "auditada": null,
       "status": "Em Produção",
       "leitura": "Concluída no consolidado atual.",
-      "ordem": 23
+      "ordem": 23,
+      "api": null
     },
     {
       "nome": "dashboard",
@@ -372,7 +395,8 @@
       "auditada": true,
       "status": "Em Produção",
       "leitura": "Auditada e sem pendência crítica aberta.",
-      "ordem": 24
+      "ordem": 24,
+      "api": null
     },
     {
       "nome": "multi-aplicacao",
@@ -385,7 +409,8 @@
       "auditada": null,
       "status": "Em Produção",
       "leitura": "Concluída no consolidado atual.",
-      "ordem": 25
+      "ordem": 25,
+      "api": null
     },
     {
       "nome": "relatorios",
@@ -398,7 +423,8 @@
       "auditada": null,
       "status": "Em Produção",
       "leitura": "Concluída no consolidado atual.",
-      "ordem": 999
+      "ordem": 999,
+      "api": null
     }
   ],
   "insights": [

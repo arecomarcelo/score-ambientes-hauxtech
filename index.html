@@ -706,6 +706,7 @@
                 <th>Atualização</th>
                 <th>Fidelidade</th>
                 <th>Auditoria</th>
+                <th>API</th>
                 <th>Status / Leitura</th>
               </tr>
             </thead>
@@ -920,10 +921,19 @@
           appendBadge(auditoriaCell, 'N/A', 'na');
         }
 
+        const apiCell = document.createElement('td');
+        if (app.api === true) {
+          appendBadge(apiCell, '✅ Sim', 'ok');
+        } else if (app.api === false) {
+          appendBadge(apiCell, '⬜ Não', 'warn');
+        } else {
+          appendBadge(apiCell, 'N/A', 'na');
+        }
+
         const leituraCell = document.createElement('td');
         leituraCell.textContent = app.leitura || app.status || 'Em acompanhamento.';
 
-        row.append(nameCell, groupCell, implantacaoCell, atualizacaoCell, fidelidadeCell, auditoriaCell, leituraCell);
+        row.append(nameCell, groupCell, implantacaoCell, atualizacaoCell, fidelidadeCell, auditoriaCell, apiCell, leituraCell);
         tbody.appendChild(row);
       });
     }
