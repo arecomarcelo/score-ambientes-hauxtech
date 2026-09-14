@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-14T15:11:23-03:00",
+  "updated_at": "2026-09-14T15:36:07-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -214,7 +214,7 @@
       "status": "Em Produção",
       "leitura": "Concluída no consolidado atual.",
       "ordem": 999,
-      "api": false
+      "api": true
     },
     {
       "nome": "Estoque",
