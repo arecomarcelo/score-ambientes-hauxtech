@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-18T15:34:54-03:00",
+  "updated_at": "2026-09-18T15:44:42-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -8,8 +8,8 @@
       "descricao": "Aplicações próprias do ecossistema HauxTech, com produtos em produção e módulos em desenvolvimento. Fidelidade ao legado não se aplica.",
       "implantacao": {
         "percentual": 93,
-        "atual": 417,
-        "total": 448,
+        "atual": 432,
+        "total": 463,
         "unidade": "etapas"
       },
       "atualizacao": {
@@ -80,12 +80,12 @@
       "nome": "coreflow-crm-docs",
       "ambiente": "hauxtech",
       "categoria": "Aplicação Finalizada",
-      "subtitulo": "Em Produção (portal docs)",
-      "implantacao": 100,
+      "subtitulo": "Em Produção (portal docs; Fase 3 em andamento)",
+      "implantacao": 62,
       "atualizacao": null,
       "fidelidade": null,
       "auditada": null,
-      "status": "Em Produção (portal docs)",
+      "status": "Em Produção (portal docs; Fase 3 em andamento)",
       "leitura": "Métrica visual/fidelidade não aplicável ao tipo de projeto.",
       "ordem": 3,
       "api": null
