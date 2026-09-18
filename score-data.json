@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-18T15:22:11-03:00",
+  "updated_at": "2026-09-18T15:28:01-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -177,16 +177,16 @@
     {
       "nome": "CoreFlow Assets",
       "ambiente": "hauxtech",
-      "categoria": "Aplicação",
-      "subtitulo": "Em Produção",
+      "categoria": "Aplicação Finalizada",
+      "subtitulo": "Em Produção (MVP; API pública pós-MVP)",
       "implantacao": 100,
       "atualizacao": 100,
       "fidelidade": null,
       "auditada": true,
-      "status": "Em Produção",
+      "status": "Em Produção (MVP; API pública pós-MVP)",
       "leitura": "Concluída no consolidado atual.",
       "ordem": 999,
-      "api": null
+      "api": true
     },
     {
       "nome": "CoreFlow Infra",
