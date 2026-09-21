@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-21T16:15:52-03:00",
+  "updated_at": "2026-09-21T16:43:06-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -329,20 +329,6 @@
       "api": null
     },
     {
-      "nome": "monitor-rpa",
-      "ambiente": "oficial",
-      "categoria": "Ferramenta Auxiliar",
-      "subtitulo": "Em Produção",
-      "implantacao": 100,
-      "atualizacao": 100,
-      "fidelidade": 100,
-      "auditada": true,
-      "status": "Em Produção",
-      "leitura": "Auditada e sem pendência crítica aberta.",
-      "ordem": 19,
-      "api": null
-    },
-    {
       "nome": "rpa",
       "ambiente": "oficial",
       "categoria": "Ferramenta Auxiliar",
@@ -424,6 +410,20 @@
       "status": "100%",
       "leitura": "Sem métrica de implantação no consolidado principal.",
       "ordem": 25,
+      "api": null
+    },
+    {
+      "nome": "monitor-oficial",
+      "ambiente": "oficial",
+      "categoria": "Ferramenta Auxiliar",
+      "subtitulo": "Em Produção",
+      "implantacao": 100,
+      "atualizacao": 100,
+      "fidelidade": 100,
+      "auditada": true,
+      "status": "Em Produção",
+      "leitura": "Auditada e sem pendência crítica aberta.",
+      "ordem": 999,
       "api": null
     },
     {
