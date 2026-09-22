@@ -1,15 +1,15 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-21T16:43:06-03:00",
+  "updated_at": "2026-09-22T10:33:49-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
       "label": "HauxTech",
       "descricao": "Aplicações próprias do ecossistema HauxTech, com produtos em produção e módulos em desenvolvimento. Fidelidade ao legado não se aplica.",
       "implantacao": {
-        "percentual": 95,
-        "atual": 460,
-        "total": 486,
+        "percentual": 90,
+        "atual": 461,
+        "total": 513,
         "unidade": "etapas"
       },
       "atualizacao": {
@@ -229,6 +229,20 @@
       "leitura": "Concluída no consolidado atual.",
       "ordem": 999,
       "api": true
+    },
+    {
+      "nome": "CoreFlow Trade",
+      "ambiente": "hauxtech",
+      "categoria": "Aplicação",
+      "subtitulo": "Em Desenvolvimento (recém-iniciado, 22/09/2026)",
+      "implantacao": 4,
+      "atualizacao": null,
+      "fidelidade": null,
+      "auditada": null,
+      "status": "Em Desenvolvimento (recém-iniciado, 22/09/2026)",
+      "leitura": "Em avanço no consolidado atual.",
+      "ordem": 999,
+      "api": null
     },
     {
       "nome": "Estoque",
