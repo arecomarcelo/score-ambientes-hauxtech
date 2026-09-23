@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-22T14:22:25-03:00",
+  "updated_at": "2026-09-23T10:32:01-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -8,8 +8,8 @@
       "descricao": "Aplicações próprias do ecossistema HauxTech, com produtos em produção e módulos em desenvolvimento. Fidelidade ao legado não se aplica.",
       "implantacao": {
         "percentual": 90,
-        "atual": 461,
-        "total": 513,
+        "atual": 469,
+        "total": 521,
         "unidade": "etapas"
       },
       "atualizacao": {
@@ -79,13 +79,13 @@
     {
       "nome": "coreflow-crm-docs",
       "ambiente": "hauxtech",
-      "categoria": "Aplicação Finalizada",
-      "subtitulo": "Em Produção (portal docs; Fase 3 em andamento)",
-      "implantacao": 81,
+      "categoria": "Aplicação",
+      "subtitulo": "Em Produção (portal Docs; Fase 3 em andamento)",
+      "implantacao": 94,
       "atualizacao": null,
       "fidelidade": null,
       "auditada": null,
-      "status": "Em Produção (portal docs; Fase 3 em andamento)",
+      "status": "Em Produção (portal Docs; Fase 3 em andamento)",
       "leitura": "Métrica visual/fidelidade não aplicável ao tipo de projeto.",
       "ordem": 3,
       "api": null
@@ -205,14 +205,14 @@
     {
       "nome": "CoreFlow People",
       "ambiente": "hauxtech",
-      "categoria": "Aplicação Finalizada",
-      "subtitulo": "Em Produção",
-      "implantacao": 100,
+      "categoria": "Aplicação",
+      "subtitulo": "Em Desenvolvimento (etapa 13 — Carreira planejada)",
+      "implantacao": 90,
       "atualizacao": 100,
       "fidelidade": null,
       "auditada": true,
-      "status": "Em Produção",
-      "leitura": "Concluída no consolidado atual.",
+      "status": "Em Desenvolvimento (etapa 13 — Carreira planejada)",
+      "leitura": "Em avanço no consolidado atual.",
       "ordem": 999,
       "api": true
     },
@@ -235,7 +235,7 @@
       "ambiente": "hauxtech",
       "categoria": "Aplicação",
       "subtitulo": "Em Desenvolvimento (recém-iniciado, 22/09/2026)",
-      "implantacao": 52,
+      "implantacao": 85,
       "atualizacao": null,
       "fidelidade": null,
       "auditada": null,
