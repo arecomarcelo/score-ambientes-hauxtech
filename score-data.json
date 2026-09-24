@@ -1,15 +1,15 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-24T16:20:35-03:00",
+  "updated_at": "2026-09-24T16:23:55-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
       "label": "HauxTech",
       "descricao": "Aplicações próprias do ecossistema HauxTech, com produtos em produção e módulos em desenvolvimento. Fidelidade ao legado não se aplica.",
       "implantacao": {
-        "percentual": 86,
-        "atual": 474,
-        "total": 549,
+        "percentual": 95,
+        "atual": 541,
+        "total": 568,
         "unidade": "etapas"
       },
       "atualizacao": {
@@ -219,13 +219,13 @@
     {
       "nome": "CoreFlow People",
       "ambiente": "hauxtech",
-      "categoria": "Aplicação",
-      "subtitulo": "Em Produção",
+      "categoria": "Aplicação Finalizada",
+      "subtitulo": "Em Produção (Etapa 13 — Carreira concluída em 24/09/2026)",
       "implantacao": 100,
       "atualizacao": 100,
       "fidelidade": null,
       "auditada": true,
-      "status": "Em Produção",
+      "status": "Em Produção (Etapa 13 — Carreira concluída em 24/09/2026)",
       "leitura": "Concluída no consolidado atual.",
       "ordem": 999,
       "api": true
