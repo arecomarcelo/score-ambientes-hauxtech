@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-24T16:52:57-03:00",
+  "updated_at": "2026-09-24T21:21:14-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
       "label": "HauxTech",
       "descricao": "Aplicações próprias do ecossistema HauxTech, com produtos em produção e módulos em desenvolvimento. Fidelidade ao legado não se aplica.",
       "implantacao": {
-        "percentual": 95,
-        "atual": 541,
+        "percentual": 96,
+        "atual": 545,
         "total": 568,
         "unidade": "etapas"
       },
@@ -192,12 +192,12 @@
       "nome": "CoreFlow Charge",
       "ambiente": "hauxtech",
       "categoria": "Aplicação",
-      "subtitulo": "Em Desenvolvimento (Fase 0 concluída e em produção, 24/09/2026)",
+      "subtitulo": "Em Desenvolvimento (Fases 0 e 1 concluídas; Fase 1 aguarda deploy e conta de serviço ERP em produção)",
       "implantacao": 32,
       "atualizacao": null,
       "fidelidade": null,
       "auditada": null,
-      "status": "Em Desenvolvimento (Fase 0 concluída e em produção, 24/09/2026)",
+      "status": "Em Desenvolvimento (Fases 0 e 1 concluídas; Fase 1 aguarda deploy e conta de serviço ERP em produção)",
       "leitura": "Em avanço no consolidado atual.",
       "ordem": 999,
       "api": null
