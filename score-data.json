@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-29T16:30:26-03:00",
+  "updated_at": "2026-09-29T17:20:23-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -191,14 +191,14 @@
     {
       "nome": "CoreFlow Charge",
       "ambiente": "hauxtech",
-      "categoria": "Aplicação",
-      "subtitulo": "Em Desenvolvimento (Fases 0 a 4 em produção; Fase 5 com testes, manual, homologação e auditoria final concluídos; falta a finalização)",
-      "implantacao": 96,
+      "categoria": "Aplicação Finalizada",
+      "subtitulo": "Em Produção (MVP finalizado em 29/09/2026, tag v1.0.0; API pública pós-MVP)",
+      "implantacao": 100,
       "atualizacao": null,
       "fidelidade": null,
       "auditada": true,
-      "status": "Em Desenvolvimento (Fases 0 a 4 em produção; Fase 5 com testes, manual, homologação e auditoria final concluídos; falta a finalização)",
-      "leitura": "Em avanço no consolidado atual.",
+      "status": "Em Produção (MVP finalizado em 29/09/2026, tag v1.0.0; API pública pós-MVP)",
+      "leitura": "Concluída no consolidado atual.",
       "ordem": 999,
       "api": null
     },
