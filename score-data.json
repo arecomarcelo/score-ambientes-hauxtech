@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-30T08:37:34-03:00",
+  "updated_at": "2026-09-30T08:47:23-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -24,9 +24,9 @@
       "label": "Oficial",
       "descricao": "Aplicações do ecossistema Oficial, incluindo extrações do legado SGA, ferramentas auxiliares e auditoria de fidelidade funcional.",
       "implantacao": {
-        "percentual": 100,
-        "atual": 186,
-        "total": 186,
+        "percentual": 99,
+        "atual": 194,
+        "total": 195,
         "unidade": "apps + ferramentas"
       },
       "implantacao_sga": {
@@ -36,15 +36,15 @@
         "unidade": "itens"
       },
       "implantacao_ferramentas": {
-        "percentual": 100,
-        "atual": 164,
-        "total": 164,
+        "percentual": 99,
+        "atual": 172,
+        "total": 173,
         "unidade": "etapas"
       },
       "implantacao_com_guarda_chuva": {
-        "percentual": 100,
-        "atual": 186,
-        "total": 186,
+        "percentual": 99,
+        "atual": 194,
+        "total": 195,
         "unidade": "apps + ferramentas + guarda-chuva"
       },
       "atualizacao": {
@@ -458,13 +458,13 @@
       "nome": "relatorios",
       "ambiente": "oficial",
       "categoria": "Ferramenta Auxiliar",
-      "subtitulo": "Em Produção",
-      "implantacao": 100,
+      "subtitulo": "Em Produção — automação diária aguardando primeira entrega",
+      "implantacao": 89,
       "atualizacao": 100,
       "fidelidade": null,
       "auditada": null,
-      "status": "Em Produção",
-      "leitura": "Concluída no consolidado atual.",
+      "status": "Em Produção — automação diária aguardando primeira entrega",
+      "leitura": "Em avanço no consolidado atual.",
       "ordem": 999,
       "api": null
     }
