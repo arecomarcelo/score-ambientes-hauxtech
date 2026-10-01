@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-10-01T14:51:51-03:00",
+  "updated_at": "2026-10-01T14:53:54-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -206,12 +206,12 @@
       "nome": "CoreFlow Finance",
       "ambiente": "hauxtech",
       "categoria": "Aplicação",
-      "subtitulo": "Em Desenvolvimento (Fases 0 a 2 em produção em 30/09/2026; próximo: Fase 3, dashboards e relatórios)",
-      "implantacao": 92,
+      "subtitulo": "Em Desenvolvimento (Fases 0 a 3 em produção; Fase 4: governança, testes, manual e auditoria final concluídos em 01/10/2026; falta a release)",
+      "implantacao": 96,
       "atualizacao": null,
       "fidelidade": null,
-      "auditada": null,
-      "status": "Em Desenvolvimento (Fases 0 a 2 em produção em 30/09/2026; próximo: Fase 3, dashboards e relatórios)",
+      "auditada": true,
+      "status": "Em Desenvolvimento (Fases 0 a 3 em produção; Fase 4: governança, testes, manual e auditoria final concluídos em 01/10/2026; falta a release)",
       "leitura": "Em avanço no consolidado atual.",
       "ordem": 999,
       "api": null
