@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-10-01T16:27:34-03:00",
+  "updated_at": "2026-10-02T10:42:30-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -206,12 +206,12 @@
       "nome": "CoreFlow Finance",
       "ambiente": "hauxtech",
       "categoria": "Aplicação Finalizada",
-      "subtitulo": "Em Produção (MVP finalizado em 01/10/2026, tag v1.0.0; API pública e integração com o Charge pós-MVP)",
+      "subtitulo": "Em Produção (MVP finalizado em 01/10/2026, tag v1.0.0; pós-MVP no Plano de Implementação 02 sem reabrir o %: API pública entregue; BI na app",
       "implantacao": 100,
       "atualizacao": null,
       "fidelidade": null,
       "auditada": true,
-      "status": "Em Produção (MVP finalizado em 01/10/2026, tag v1.0.0; API pública e integração com o Charge pós-MVP)",
+      "status": "Em Produção (MVP finalizado em 01/10/2026, tag v1.0.0; pós-MVP no Plano de Implementação 02 sem reabrir o %: API pública entregue; BI na app",
       "leitura": "Concluída no consolidado atual.",
       "ordem": 999,
       "api": true
