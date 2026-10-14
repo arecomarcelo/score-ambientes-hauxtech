@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-10-14T15:51:34-03:00",
+  "updated_at": "2026-10-14T15:52:03-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -25,7 +25,7 @@
       "descricao": "Aplicações do ecossistema Oficial, incluindo extrações do legado SGA, ferramentas auxiliares e auditoria de fidelidade funcional.",
       "implantacao": {
         "percentual": 99,
-        "atual": 258,
+        "atual": 259,
         "total": 261,
         "unidade": "apps + ferramentas"
       },
@@ -36,14 +36,14 @@
         "unidade": "itens"
       },
       "implantacao_ferramentas": {
-        "percentual": 99,
-        "atual": 172,
+        "percentual": 100,
+        "atual": 173,
         "total": 173,
         "unidade": "etapas"
       },
       "implantacao_com_guarda_chuva": {
         "percentual": 99,
-        "atual": 273,
+        "atual": 274,
         "total": 276,
         "unidade": "apps + ferramentas + guarda-chuva"
       },
@@ -473,12 +473,12 @@
       "ambiente": "oficial",
       "categoria": "Ferramenta Auxiliar",
       "subtitulo": "Em Produção — automação diária entregue no Slack desde 30/09/2026",
-      "implantacao": 89,
+      "implantacao": 100,
       "atualizacao": 100,
       "fidelidade": null,
       "auditada": null,
       "status": "Em Produção — automação diária entregue no Slack desde 30/09/2026",
-      "leitura": "Em avanço no consolidado atual.",
+      "leitura": "Concluída no consolidado atual.",
       "ordem": 999,
       "api": null
     },
