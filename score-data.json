@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-10-14T15:48:47-03:00",
+  "updated_at": "2026-10-14T15:51:34-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -472,12 +472,12 @@
       "nome": "relatorios",
       "ambiente": "oficial",
       "categoria": "Ferramenta Auxiliar",
-      "subtitulo": "Em Produção — automação diária aguardando primeira entrega",
+      "subtitulo": "Em Produção — automação diária entregue no Slack desde 30/09/2026",
       "implantacao": 89,
       "atualizacao": 100,
       "fidelidade": null,
       "auditada": null,
-      "status": "Em Produção — automação diária aguardando primeira entrega",
+      "status": "Em Produção — automação diária entregue no Slack desde 30/09/2026",
       "leitura": "Em avanço no consolidado atual.",
       "ordem": 999,
       "api": null
