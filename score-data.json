@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-10-14T13:51:02-03:00",
+  "updated_at": "2026-10-14T15:42:39-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -24,14 +24,14 @@
       "label": "Oficial",
       "descricao": "Aplicações do ecossistema Oficial, incluindo extrações do legado SGA, ferramentas auxiliares e auditoria de fidelidade funcional.",
       "implantacao": {
-        "percentual": 97,
-        "atual": 199,
+        "percentual": 99,
+        "atual": 203,
         "total": 206,
         "unidade": "apps + ferramentas"
       },
       "implantacao_sga": {
-        "percentual": 82,
-        "atual": 27,
+        "percentual": 94,
+        "atual": 31,
         "total": 33,
         "unidade": "itens"
       },
@@ -42,8 +42,8 @@
         "unidade": "etapas"
       },
       "implantacao_com_guarda_chuva": {
-        "percentual": 97,
-        "atual": 199,
+        "percentual": 99,
+        "atual": 203,
         "total": 206,
         "unidade": "apps + ferramentas + guarda-chuva"
       },
@@ -486,12 +486,12 @@
       "nome": "Vendas",
       "ambiente": "oficial",
       "categoria": "Extração SGA",
-      "subtitulo": "Em desenvolvimento",
-      "implantacao": 45,
+      "subtitulo": "Em produção (desde 07/10/2026), dona do schema vendas (Onda 1 do plano de migração RPA → oficial_db); checklist reconciliado em 14/10/2026 contra o código e a produção",
+      "implantacao": 82,
       "atualizacao": null,
       "fidelidade": 100,
       "auditada": false,
-      "status": "Em desenvolvimento",
+      "status": "Em produção (desde 07/10/2026), dona do schema vendas (Onda 1 do plano de migração RPA → oficial_db); checklist reconciliado em 14/10/2026 contra o código e a produção",
       "leitura": "Auditada e sem pendência crítica aberta.",
       "ordem": 999,
       "api": null
