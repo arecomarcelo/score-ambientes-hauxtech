@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-10-15T08:58:13-03:00",
+  "updated_at": "2026-10-15T09:36:15-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -25,14 +25,14 @@
       "descricao": "Aplicações do ecossistema Oficial, incluindo extrações do legado SGA, ferramentas auxiliares e auditoria de fidelidade funcional.",
       "implantacao": {
         "percentual": 97,
-        "atual": 282,
-        "total": 292,
+        "atual": 284,
+        "total": 294,
         "unidade": "apps + ferramentas"
       },
       "implantacao_sga": {
         "percentual": 92,
-        "atual": 109,
-        "total": 119,
+        "atual": 111,
+        "total": 121,
         "unidade": "itens"
       },
       "implantacao_ferramentas": {
@@ -43,8 +43,8 @@
       },
       "implantacao_com_guarda_chuva": {
         "percentual": 97,
-        "atual": 297,
-        "total": 307,
+        "atual": 299,
+        "total": 309,
         "unidade": "apps + ferramentas + guarda-chuva"
       },
       "atualizacao": {
@@ -487,7 +487,7 @@
       "ambiente": "oficial",
       "categoria": "Extração SGA",
       "subtitulo": "Em produção (desde 07/10/2026), dona do schema vendas (Onda 1 do plano de migração RPA → oficial_db); checklist reconciliado em 14/10/2026 contra o código e a produção",
-      "implantacao": 76,
+      "implantacao": 77,
       "atualizacao": null,
       "fidelidade": 100,
       "auditada": false,
