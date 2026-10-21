@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-10-20T16:21:26-03:00",
+  "updated_at": "2026-10-21T08:39:20-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -284,7 +284,7 @@
       "status": "Em Produção",
       "leitura": "Auditada e sem pendência crítica aberta.",
       "ordem": 11,
-      "api": null
+      "api": true
     },
     {
       "nome": "Comex",
@@ -298,7 +298,7 @@
       "status": "Em Produção",
       "leitura": "Auditada e sem pendência crítica aberta.",
       "ordem": 12,
-      "api": null
+      "api": true
     },
     {
       "nome": "Administração",
@@ -312,7 +312,7 @@
       "status": "Em Produção",
       "leitura": "Auditada e sem pendência crítica aberta.",
       "ordem": 13,
-      "api": null
+      "api": true
     },
     {
       "nome": "Financeiro",
@@ -326,7 +326,7 @@
       "status": "Em Produção",
       "leitura": "Auditada e sem pendência crítica aberta.",
       "ordem": 14,
-      "api": null
+      "api": true
     },
     {
       "nome": "Inventário",
@@ -340,7 +340,7 @@
       "status": "Em Produção",
       "leitura": "Auditada e sem pendência crítica aberta.",
       "ordem": 15,
-      "api": null
+      "api": true
     },
     {
       "nome": "RH",
@@ -354,7 +354,7 @@
       "status": "Em Produção",
       "leitura": "Auditada e sem pendência crítica aberta.",
       "ordem": 16,
-      "api": null
+      "api": true
     },
     {
       "nome": "Cadastros",
@@ -368,7 +368,7 @@
       "status": "Em Produção",
       "leitura": "Auditada e sem pendência crítica aberta.",
       "ordem": 17,
-      "api": null
+      "api": true
     },
     {
       "nome": "rpa",
@@ -396,7 +396,7 @@
       "status": "Em Produção",
       "leitura": "Auditada e sem pendência crítica aberta.",
       "ordem": 21,
-      "api": null
+      "api": true
     },
     {
       "nome": "gestor-imagem",
@@ -494,7 +494,7 @@
       "status": "Em Produção",
       "leitura": "Auditada e sem pendência crítica aberta.",
       "ordem": 999,
-      "api": null
+      "api": true
     }
   ],
   "insights": [
