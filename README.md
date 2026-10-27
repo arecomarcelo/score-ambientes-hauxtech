@@ -9,3 +9,8 @@ https://score.hauxtech.com.br/
 URL alternativa via GitHub Pages:
 
 https://arecomarcelo.github.io/score-ambientes-hauxtech/
+
+## Dados
+
+- `score-data-hauxtech.json` e `score-data-oficial.json` — dados públicos de cada ambiente, publicados separadamente.
+- `score-data.json` — os dois ambientes juntos, lido pela página; gerado por `scripts/agrega_score.py`, que também confere que nenhum dado interno vaza.
