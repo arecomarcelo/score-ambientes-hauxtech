@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-10-29T20:29:48-03:00",
+  "updated_at": "2026-11-04T17:14:07-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -25,8 +25,8 @@
       "descricao": "Aplicações do ecossistema Oficial, incluindo extrações do legado SGA, ferramentas auxiliares e auditoria de fidelidade funcional.",
       "implantacao": {
         "percentual": 100,
-        "atual": 250,
-        "total": 250,
+        "atual": 252,
+        "total": 252,
         "unidade": "apps + ferramentas"
       },
       "implantacao_sga": {
@@ -37,14 +37,14 @@
       },
       "implantacao_ferramentas": {
         "percentual": 100,
-        "atual": 162,
-        "total": 162,
+        "atual": 164,
+        "total": 164,
         "unidade": "etapas"
       },
       "implantacao_com_guarda_chuva": {
         "percentual": 100,
-        "atual": 265,
-        "total": 265,
+        "atual": 267,
+        "total": 267,
         "unidade": "apps + ferramentas + guarda-chuva"
       },
       "atualizacao": {
