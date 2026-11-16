@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-11-04T17:14:07-03:00",
+  "updated_at": "2026-11-16T11:43:56-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "oficial": {
@@ -272,12 +272,12 @@
   ],
   "insights": [
     {
-      "titulo": "Oficial: fidelidade depende de auditorias retroativas.",
-      "texto": "Administração e Financeiro já estão implantadas, mas ainda dependem da auditoria formal de fidelidade contra o legado."
+      "titulo": "Oficial: núcleo SGA 100% implantado e auditado.",
+      "texto": "As 8 apps de extração estão em produção, com auditoria de fidelidade ao legado concluída e sem pendência crítica aberta."
     },
     {
-      "titulo": "Oficial SGA ainda tem apps não iniciadas.",
-      "texto": "Inventário, Cadastros e Cobrança seguem sem implantação no consolidado atual do núcleo SGA."
+      "titulo": "Oficial: legado SGA desativado.",
+      "texto": "O SGA monolítico foi desligado em 16/11/2026; as apps e os RPAs operam somente sobre a nova estrutura."
     }
   ],
   "notas": [
