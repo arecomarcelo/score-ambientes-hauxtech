@@ -1,15 +1,15 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-11-19T17:21:04-03:00",
+  "updated_at": "2026-11-23T14:04:59-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
       "label": "HauxTech",
       "descricao": "Aplicações próprias do ecossistema HauxTech, com produtos em produção e módulos em desenvolvimento. Fidelidade ao legado não se aplica.",
       "implantacao": {
-        "percentual": 92,
-        "atual": 567,
-        "total": 613,
+        "percentual": 88,
+        "atual": 575,
+        "total": 657,
         "unidade": "etapas"
       },
       "atualizacao": {
@@ -231,6 +231,20 @@
       "leitura": "Concluída no consolidado atual.",
       "ordem": 999,
       "api": true
+    },
+    {
+      "nome": "StreamKeeper Desktop",
+      "ambiente": "hauxtech",
+      "categoria": "Aplicação",
+      "subtitulo": "Em Desenvolvimento (SP00 concluída, app desktop 100% local para Linux e Windows, Django embarcado com pywebview e SQLite; iniciada em 23/11/2026)",
+      "implantacao": 18,
+      "atualizacao": null,
+      "fidelidade": null,
+      "auditada": null,
+      "status": "Em Desenvolvimento (SP00 concluída, app desktop 100% local para Linux e Windows, Django embarcado com pywebview e SQLite; iniciada em 23/11/2026)",
+      "leitura": "Em avanço no consolidado atual.",
+      "ordem": 999,
+      "api": null
     }
   ],
   "insights": [
