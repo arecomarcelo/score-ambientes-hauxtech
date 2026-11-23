@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-11-23T17:29:24-03:00",
+  "updated_at": "2026-11-23T17:29:58-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -234,12 +234,12 @@
       "nome": "CoreFlow Planner Mobile",
       "ambiente": "hauxtech",
       "categoria": "Aplicação",
-      "subtitulo": "Em Desenvolvimento (SP00, app Android em Kotlin Multiplatform, local-first, integração opcional com o CoreFlow Planner AI; iniciada em 19/11/2026)",
+      "subtitulo": "Em Desenvolvimento (SP00 e SP01 concluídas, app Android em Kotlin Multiplatform, local-first, integração opcional com o CoreFlow Planner AI; iniciada em 19/11/2026)",
       "implantacao": 50,
       "atualizacao": null,
       "fidelidade": null,
       "auditada": null,
-      "status": "Em Desenvolvimento (SP00, app Android em Kotlin Multiplatform, local-first, integração opcional com o CoreFlow Planner AI; iniciada em 19/11/2026)",
+      "status": "Em Desenvolvimento (SP00 e SP01 concluídas, app Android em Kotlin Multiplatform, local-first, integração opcional com o CoreFlow Planner AI; iniciada em 19/11/2026)",
       "leitura": "Em avanço no consolidado atual.",
       "ordem": 999,
       "api": null
