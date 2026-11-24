@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-11-24T16:25:45-03:00",
+  "updated_at": "2026-11-24T16:36:16-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -24,9 +24,9 @@
       "label": "Oficial",
       "descricao": "Aplicações do ecossistema Oficial, incluindo extrações do legado SGA, ferramentas auxiliares e auditoria de fidelidade funcional.",
       "implantacao": {
-        "percentual": 100,
-        "atual": 252,
-        "total": 252,
+        "percentual": 99,
+        "atual": 263,
+        "total": 265,
         "unidade": "apps + ferramentas"
       },
       "implantacao_sga": {
@@ -36,15 +36,15 @@
         "unidade": "itens"
       },
       "implantacao_ferramentas": {
-        "percentual": 100,
-        "atual": 164,
-        "total": 164,
+        "percentual": 98,
+        "atual": 175,
+        "total": 177,
         "unidade": "etapas"
       },
       "implantacao_com_guarda_chuva": {
-        "percentual": 100,
-        "atual": 267,
-        "total": 267,
+        "percentual": 99,
+        "atual": 278,
+        "total": 280,
         "unidade": "apps + ferramentas + guarda-chuva"
       },
       "atualizacao": {
@@ -466,6 +466,20 @@
       "status": "Finalizado — núcleo de extração SGA concluído (17/08/2026)",
       "leitura": "Concluída no consolidado atual.",
       "ordem": 25,
+      "api": null
+    },
+    {
+      "nome": "etiquetas-expedicao",
+      "ambiente": "oficial",
+      "categoria": "Ferramenta Auxiliar",
+      "subtitulo": "Em Desenvolvimento",
+      "implantacao": 85,
+      "atualizacao": null,
+      "fidelidade": null,
+      "auditada": null,
+      "status": "Em Desenvolvimento",
+      "leitura": "Em avanço no consolidado atual.",
+      "ordem": 999,
       "api": null
     },
     {
