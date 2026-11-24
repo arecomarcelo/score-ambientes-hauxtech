@@ -1,15 +1,15 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-11-23T22:16:06-03:00",
+  "updated_at": "2026-11-24T16:25:45-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
       "label": "HauxTech",
       "descricao": "Aplicações próprias do ecossistema HauxTech, com produtos em produção e módulos em desenvolvimento. Fidelidade ao legado não se aplica.",
       "implantacao": {
-        "percentual": 92,
-        "atual": 606,
-        "total": 659,
+        "percentual": 95,
+        "atual": 626,
+        "total": 662,
         "unidade": "etapas"
       },
       "atualizacao": {
@@ -193,14 +193,14 @@
     {
       "nome": "CoreFlow Planner Mobile",
       "ambiente": "hauxtech",
-      "categoria": "Aplicação",
-      "subtitulo": "Em Desenvolvimento (SP00 a SP03 concluídas, app Android em Kotlin Multiplatform, local-first, integração opcional com o CoreFlow Planner AI; iniciada em 19/11/2026)",
-      "implantacao": 67,
+      "categoria": "Aplicação Finalizada",
+      "subtitulo": "Em Produção (app Android em Kotlin Multiplatform; MVP finalizado em 24/11/2026, release v1.0.0 assinado no GitHub Release; movida da Tabela Geral em 24/11/2026)",
+      "implantacao": 100,
       "atualizacao": null,
       "fidelidade": null,
-      "auditada": null,
-      "status": "Em Desenvolvimento (SP00 a SP03 concluídas, app Android em Kotlin Multiplatform, local-first, integração opcional com o CoreFlow Planner AI; iniciada em 19/11/2026)",
-      "leitura": "Em avanço no consolidado atual.",
+      "auditada": true,
+      "status": "Em Produção (app Android em Kotlin Multiplatform; MVP finalizado em 24/11/2026, release v1.0.0 assinado no GitHub Release; movida da Tabela Geral em 24/11/2026)",
+      "leitura": "Concluída no consolidado atual.",
       "ordem": 999,
       "api": null
     },
