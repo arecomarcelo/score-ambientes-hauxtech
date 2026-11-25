@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-11-25T08:52:07-03:00",
+  "updated_at": "2026-11-25T17:31:32-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -24,8 +24,8 @@
       "label": "Oficial",
       "descricao": "Aplicações do ecossistema Oficial, incluindo extrações do legado SGA, ferramentas auxiliares e auditoria de fidelidade funcional.",
       "implantacao": {
-        "percentual": 86,
-        "atual": 263,
+        "percentual": 92,
+        "atual": 281,
         "total": 307,
         "unidade": "apps + ferramentas"
       },
@@ -36,14 +36,14 @@
         "unidade": "itens"
       },
       "implantacao_ferramentas": {
-        "percentual": 80,
-        "atual": 175,
+        "percentual": 88,
+        "atual": 193,
         "total": 219,
         "unidade": "etapas"
       },
       "implantacao_com_guarda_chuva": {
-        "percentual": 86,
-        "atual": 278,
+        "percentual": 92,
+        "atual": 296,
         "total": 322,
         "unidade": "apps + ferramentas + guarda-chuva"
       },
@@ -472,13 +472,13 @@
       "nome": "estoque-mobile",
       "ambiente": "oficial",
       "categoria": "Ferramenta Auxiliar",
-      "subtitulo": "Planejamento",
-      "implantacao": 0,
+      "subtitulo": "Desenvolvimento",
+      "implantacao": 43,
       "atualizacao": null,
       "fidelidade": null,
       "auditada": null,
-      "status": "Planejamento",
-      "leitura": "Ainda não iniciada.",
+      "status": "Desenvolvimento",
+      "leitura": "Em avanço no consolidado atual.",
       "ordem": 999,
       "api": null
     },
