@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-11-24T16:25:45-03:00",
+  "updated_at": "2026-11-26T16:30:57-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
@@ -175,6 +175,20 @@
       "leitura": "Concluída no consolidado atual.",
       "ordem": 999,
       "api": true
+    },
+    {
+      "nome": "CoreFlow Infra Mobile",
+      "ambiente": "hauxtech",
+      "categoria": "Aplicação",
+      "subtitulo": "Não Iniciada (planejamento concluído em 26/11/2026; SP00 pendente)",
+      "implantacao": null,
+      "atualizacao": null,
+      "fidelidade": null,
+      "auditada": null,
+      "status": "Não Iniciada (planejamento concluído em 26/11/2026; SP00 pendente)",
+      "leitura": "Sem métrica de implantação no consolidado principal.",
+      "ordem": 999,
+      "api": null
     },
     {
       "nome": "CoreFlow People",
