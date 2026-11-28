@@ -1,15 +1,15 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-11-26T17:16:06-03:00",
+  "updated_at": "2026-11-28T17:02:29-03:00",
   "source_label": "Score de Implantação consolidado",
   "ambientes": {
     "hauxtech": {
       "label": "HauxTech",
       "descricao": "Aplicações próprias do ecossistema HauxTech, com produtos em produção e módulos em desenvolvimento. Fidelidade ao legado não se aplica.",
       "implantacao": {
-        "percentual": 95,
-        "atual": 626,
-        "total": 662,
+        "percentual": 94,
+        "atual": 653,
+        "total": 698,
         "unidade": "etapas"
       },
       "atualizacao": {
@@ -220,13 +220,13 @@
       "nome": "CoreFlow Infra Mobile",
       "ambiente": "hauxtech",
       "categoria": "Aplicação",
-      "subtitulo": "Não Iniciada (planejamento concluído em 26/11/2026; SP00 pendente)",
-      "implantacao": null,
+      "subtitulo": "Em Desenvolvimento (app Android em Kotlin Multiplatform, cliente do CoreFlow Infra; SP00a a SP03 concluídas até 28/11/2026)",
+      "implantacao": 75,
       "atualizacao": null,
       "fidelidade": null,
       "auditada": null,
-      "status": "Não Iniciada (planejamento concluído em 26/11/2026; SP00 pendente)",
-      "leitura": "Sem métrica de implantação no consolidado principal.",
+      "status": "Em Desenvolvimento (app Android em Kotlin Multiplatform, cliente do CoreFlow Infra; SP00a a SP03 concluídas até 28/11/2026)",
+      "leitura": "Em avanço no consolidado atual.",
       "ordem": 999,
       "api": null
     },
